@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Giancarlo Antonucci - On the de Broglie-Bohm theory</title>
+		<link rel="stylesheet" href="assets/css/main.css">
+		<link rel="stylesheet" href="assets/css/prism.css">
+		<script src="assets/js/prism.js"></script>
+		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  	<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		<script src="assets/js/maths.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="homepage">
+				<a href="index.html">🏠</a>
+			</div>
+			<h1>On the de Broglie-Bohm theory</h1>
+			<div class="language">
+				<a href="eng_bohm.html"><img src="images/flags/eng.png" width="18px"></a>
+				<a href="ita_bohm.html"><img src="images/flags/ita.png" width="18px"></a>
+				<a href="scn_bohm.html"><img src="images/flags/scn.png" width="18px"></a>
+			</div>
+		</header>
+		<main>
+			<section>
+				<header>
+					<h3>Introduction</h3>
+				</header>
+				<p>
+					Since its very beginnings, quantum mechanics has been able to generate vigorous debates on how the world around us works, and how it doesn't. Perhaps the most challenging notion to our common sense is that, according to the Copenhagen interpretation of quantum mechanics, particles do not have locations until they are observed. A theory due to Louis de Broglie <a id="deBroglie1927↓" href="#deBroglie1927↑">[4]</a> and David Bohm <a id="Bohm1952a↓" href="#Bohm1952a↑">[2, </a><a id="Bohm1952b↓" href="#Bohm1952b↑">3]</a>, also called pilot-wave theory, provides an alternative view in which particles have precise positions at all times.
+				</p>
+				<p>
+					Let $q(t)$ denote the configuration of a physical system, i.e. particles, $Q$ be its configuration space and $\psi(q,t)$ be the wave function underlying such a system. According to this theory, both wave and particles actually exist as separate entities. We characterise the time evolution of a physical system according to a set of two equations: the Schrödinger equation
+					\begin{equation} \label{eq:schrodinger}
+						i\hbar \pdv{\psi}{t} = H\psi,
+					\end{equation}
+					where $H$ is the Hamiltonian operator, and the guidance equation
+					\begin{equation}
+						\dv{q}{t} = v^\psi(q),
+					\end{equation}
+					where $v^\psi = J/\rho$ is a velocity field that can be obtained from the Schrödinger equation itself through the quantum probability density $\rho = \inner{\psi}{\psi}$ and the quantum probability current $J$ <a id="Durr2013↓" href="#Durr2013↑">[5]</a>.
+				</p>
+				<p>
+					For a non-relativistic system of $N$ particles, each of mass $m_i$, moving subject to a potential $V(r,t)$, the Hamiltonian writes as
+					\begin{equation}
+						H = \sum_{i=1}^N \frac{p_i^2}{2m_i} + V = - \sum_{i=1}^N \frac{\hbar^2}{2m_i} \nabla_i^2 + V,
+					\end{equation}
+					where $p_i = -i\hbar\grad_i$ denotes the momentum ascribed to the coordinates of the $i$-th particle, respectively. Similarly, the guidance equation becomes
+					\begin{equation} \label{eq:guidance}
+						\dv{r_i}{t} = \frac{1}{m_i} \, \Re{\left( \frac{\inner{\psi}{p_i\psi}}{\inner{\psi}{\psi}} \right)} = \frac{\hbar}{m_i} \, \Im{\left( \frac{\inner{\psi}{\grad_i{\psi}}}{\inner{\psi}{\psi}} \right)}.
+					\end{equation}
+					An immediate consequence of \eqref{eq:guidance} is that quantum trajectories do not cross each other: if they had, two particles would have shared the same point, making the wave function multi-valued at that point.
+				</p>
+			</section>
+			<section id="DS">
+				<header>
+					<h3>The double-slit experiment</h3>
+				</header>
+				<p>
+					One advantage of this theory is that it resolves the dilemma of wave-particle duality in the double-slit experiment. In this experiment, a source sends a stream of particles, e.g. electrons, towards a pair of narrow slits. After the passage through the slits, the particles reach a photographic plate, leaving a black spot. After a while, these spots start to form an interference pattern on the screen, as if the particles were (or behaved as) waves. Note that this happens even if we send one particle at a time.
+				</p>
+				<p>
+					Our model is as follows. Since the Schrödinger equation is linear, we assume that the incident wave function comes out of the slits as a superposition of two Gaussian wave packets, which then propagate forward. We can use other wave packets, e.g. Airy functions, which propagate freely without envelope dispersion <a id="Berry1979↓" href="#Berry1979↑">[1]</a>, but the end result does not change substantially. Hence, for the $j$-th slit, our problem reads as
+					\begin{equation}
+						\begin{cases}
+							i\hbar \pdv{\psi_j}{t} = -\frac{\hbar^2}{2m} \left( \pdvn{\psi_j}{x}{2} + \pdvn{\psi_j}{y}{2} \right), & (x, t) \in \RR \times [0, \infty], \\
+							\psi_j(x, y, 0) = \exp{\left[ -\frac{(y-y_j)^2}{2\sigma^2} + ikx \right]}, & t = 0, \\
+							\psi_j(x, y, t) \to 0, & x, y \to \pm\infty.
+						\end{cases}
+					\end{equation}
+					Separation of variables and a standard application of the Fourier transform give that
+					\begin{equation}
+						\psi_j(x,y,t) = \frac{\sigma}{\sigma_t} \, \exp{\left[ -\frac{(y-y_j)^2}{2\sigma_t^2} + i \left(kx - \frac{\hbar k^2}{2m}t\right) \right]}, \quad \sigma_t := \sqrt{\sigma^2 + i\frac{\hbar}{m}t} \,.
+					\end{equation}
+					Hence, we substitute $\psi = \psi_1 + \psi_2$ into the guiding equation to obtain $x = kt$ and
+					\begin{equation}
+						\dv{y}{t} = \Im{\left( \frac{1}{\psi} \pdv{\psi}{y} \right)} = \Im{\left[ \frac{(y_1 - y)\psi_1 + (y_2 - y)\psi_2}{\sigma_t^2 (\psi_1 + \psi_2)} \right]},
+					\end{equation}
+					which we solve using the classic 4-th order Runge-Kutta scheme from <a href="https://github.com/antonuccig/RungeKutta.jl"><code class="language-julia">RungeKutta.jl</code></a>:
+				</p>
+				<pre><code class="language-julia">using RungeKutta
+problem = DoubleSlit2D(σ = 0.225)
+solver = RK4(h = 1e-3)
+solution = solve(problem, solver)</code></pre>
+				<p>
+					We plot our results in <a id="Figure1↓" href="#Figure1↑">Figure 1</a> using some pre-defined plot recipes. As it turns out, the slits cause the guiding wave to form an interference pattern, which in turn determines the possible trajectories of each particle.
+				</p>
+				<figure>
+					<img src="images/double-slit.svg" alt="double-slit experiment" width="700px">
+					<figcaption><a id="Figure1↑" href="#Figure1↓"><b>Figure 1.</b></a> Left: particle trajectories for the double-slit experiment. Right: (non-normalised) quantum equilibrium distribution at the photographic plate. Parameters: $\hbar = m = k = 1$ and $\sigma
+					= 0.225$.</figcaption>
+				</figure>
+			</section>
+			<section id="RF">
+				<header>
+					<h3>References</h3>
+				</header>
+				<table>
+					<tr>
+						<td class="left"><a id="Berry1979↑" href="#Berry1979↓">[1]</a></td>
+						<td>M. V. Berry and N. L. Balázs, <i>Nonspreading wave packets</i>, American Journal of Physics, 47(3):264-267, 1979. <a href="https://doi.org/10.1119/1.11855" target="_blank">[doi]</a></td>
+					</tr>
+					<tr>
+						<td class="left"><a id="Bohm1952a↑" href="#Bohm1952a↓">[2]</a></td>
+						<td>D. Bohm, <i>A suggested interpretation of the quantum theory in terms of "hidden" variables I</i>, Physical Review, 85(2):166-179, 1952. <a href="https://doi.org/10.1103/PhysRev.85.166" target="_blank">[doi]</a></td>
+					</tr>
+					<tr>
+						<td class="left"><a id="Bohm1952b↑" href="#Bohm1952b↓">[3]</a></td>
+						<td>D. Bohm, <i>A suggested interpretation of the quantum theory in terms of "hidden" variables II</i>, Physical Review, 85(2):180-193, 1952. <a href="https://doi.org/10.1103/PhysRev.85.180" target="_blank">[doi]</a></td>
+					</tr>
+					<tr>
+						<td class="left"><a id="deBroglie1927↑" href="#deBroglie1927↓">[4]</a></td>
+						<td>L. de Broglie, <i>La mécanique ondulatoire et la structure atomique de la matière et du rayonnement</i>, Journal de Physique et le Radium, 8(5), 1927. <a href="https://doi.org/10.1051/jphysrad:0192700805022500" target="_blank">[doi]</a></td>
+					</tr>
+					<tr>
+						<td class="left"><a id="Durr2013↑" href="#Durr2013↓">[5]</a></td>
+						<td> D. Dürr, S. Goldstein and N. Zanghì, <i>Quantum Physics without Quantum Philosophy</i>, Springer-Verlag Berlin Heidelberg, 2013. <a href="https://doi.org/10.1007/978-3-642-30690-7" target="_blank">[doi]</a></td>
+					</tr>
+				</table>
+			</section>
+		</main>
+	</body>
+</html>
