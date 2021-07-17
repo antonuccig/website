@@ -64,6 +64,7 @@ navbar .active {
 navbar dropdown {
 	position: relative;
 	display: inline-block;
+  /* float: right; */
 }
 
 navbar dropdown button {
@@ -71,7 +72,7 @@ navbar dropdown button {
   position: relative;
 	background-color: #4CAF50;
 	color: white;
-	padding: 1em 1.25em;
+	padding: 1.125em 0.9em;
 	border: none;
 	cursor: pointer;
 }
@@ -86,7 +87,7 @@ navbar dropdown content {
 
 navbar dropdown content a {
 	color: black;
-	padding: 1em;
+	padding: 0.75em;
 	text-decoration: none;
 	display: block;
 }
@@ -104,8 +105,18 @@ navbar dropdown:hover button {
 }
 
 navbar dropdown img {
-  width: 24px;
-  height: 18px;
+  width: 30px;
+  height: 20px;
+}
+
+.wrap {
+}
+
+@media only screen and (min-width: 1024px) {
+    .wrap {
+        width: 0;
+        display: none;
+    }
 }
 
 /* ---------------------------------- MAIN ---------------------------------- */
