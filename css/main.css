@@ -151,9 +151,7 @@ home {
 
 home img {
   border-radius: 6.5em;
-  /* float: left; */
-  height: 13em;
-  /* margin: 1em 2em 0em 1em; */
+  height: 200px;
 }
 
 /* -------------------------------- SECTION --------------------------------- */
