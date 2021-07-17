@@ -9,18 +9,26 @@
 	<body>
 
 		<navbar>
+
 			<ul>
 				<li><a class="active" href="index.html">Home</a></li>
 				<li><a href="about.html">About</a></li>
 				<li><a href="research.html">Research</a></li>
 				<li><a href="blog.html">Blog</a></li>
-				<li style="float: right">
-					<a class="flag" href="index_pmt.html">    <img src="images/flag_pmt.svg"></a>
-					<a class="flag" href="index_scn.html"><img src="images/flag_scn.svg"></a>
-					<a class="flag" href="index_ita.html"><img src="images/flag_ita.svg"></a>
-					<a class="flag" href="index.html">    <img src="images/flag_eng.svg"></a>
-				</li>
 			</ul>
+
+			<dropdown style="float: right;">
+	      <button>
+	      	<a href="index.html"><img src="images/flag_eng.svg"></a>
+	      </button>
+	      <content>
+					<a href="index.html"><img src="images/flag_eng.svg"></a>
+					<a href="index_ita.html"><img src="images/flag_ita.svg"></a>
+					<a href="index_scn.html"><img src="images/flag_scn.svg"></a>
+					<a href="index_pmt.html"><img src="images/flag_pmt.svg"></a>
+	      </content>
+	    </dropdown>
+
 		</navbar>
 
 		<main>
@@ -96,5 +104,9 @@
 				<a href="eng_bohm.html">On the de Broglie-Bohm theory</a>
 			</section>
 		</main>
+
+		<script>
+		$("navbar").height($("ul").height());
+		</script>
 	</body>
 </html>
