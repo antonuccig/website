@@ -5,6 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Giancarlo Antonucci</title>
 		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	</head>
 
 	<body>
@@ -12,13 +13,17 @@
 		<navbar>
 			<ul>
 				<li><a class="active" href="index.html">Home</a></li>
-				<div class="wrap">
-					<li><a href="about.html">About</a></li>
-					<li><a href="cv.html">Resume / CV</a></li>
-					<li><a href="research.html">Research</a></li>
-					<li><a href="blog.html">Blog</a></li>
-				<div>
+					<div id="link1" class="dItem">
+					<div class="dropdown-two">
+
+						<li><a href="about.html">About</a></li>
+						<li><a href="cv.html">Resume / CV</a></li>
+						<li><a href="research.html">Research</a></li>
+						<li><a href="blog.html">Blog</a></li>
+					</div>
+					<div>
 			</ul>
+
 			<dropdown style="float: right;">
 	      <button>
 	      	<a href="index.html"><img src="images/flag_eng.svg"></a>
@@ -38,7 +43,7 @@
 			<!-- <h2>DPhil (PhD) Student in Applied Mathematics</h2> -->
 			<p>
 				<b>Contacts:</b><br>
-				Office S2.28<br>
+				Office S2.28, Mathematical Institute, Oxford, United Kingdom<br>
 				<a href="mailto:antonucci@maths.ox.ac.uk">antonucci@maths.ox.ac.uk</a><br>
 				<a href="https://www.linkedin.com/in/giancarloantonucci" target="_blank">LinkedIn</a>, <a href="https://github.com/antonuccig" target="_blank">GitHub</a>
 			</p>
@@ -105,7 +110,16 @@
 		</main>
 
 		<script>
-		$("navbar").height($("ul").height());
+			function myFunction() {
+			  var x = document.getElementById("myLinks");
+			  if (x.style.display === "block") {
+			    x.style.display = "none";
+			  } else {
+			    x.style.display = "block";
+			  }
+			}
 		</script>
+
+
 	</body>
 </html>

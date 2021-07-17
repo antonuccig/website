@@ -64,7 +64,8 @@ navbar .active {
 navbar dropdown {
 	position: relative;
 	display: inline-block;
-  /* float: right; */
+  right: 0;
+  top: 0;
 }
 
 navbar dropdown button {
@@ -109,14 +110,30 @@ navbar dropdown img {
   height: 20px;
 }
 
-.wrap {
+@media only screen and (max-width: 2000px) {
+
+  .dropdown-two {
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    /* left: 160px; */
+    top: 0px;
+    /* min-width: 160px; */
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+
+  #link1:hover > .dropdown-two {
+    display: block;
+  }
+
+  .dItem {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
 }
 
-@media only screen and (max-width: 720px) {
-    .wrap {
-        width: 0;
-        display: none;
-    }
 }
 
 /* ---------------------------------- MAIN ---------------------------------- */
@@ -157,7 +174,7 @@ main code {
 home {
   display: block;
   text-align: center;
-  padding: 1em 0;
+  padding: 2.5em 0;
 }
 
 home img {
