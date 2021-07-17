@@ -1,0 +1,128 @@
+.navbar{
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar .active {
+  background-color: #67A38D;
+}
+
+.navbar .navbar_menu a {
+  color: white;
+}
+
+.navbar .navbar_menu li:not(.active) a:hover {
+  color: #67A38D;
+}
+
+.navbar .navbar_menu_toggle {
+  display: none;
+}
+
+.navbar .navbar_menu_contents li {
+  float: left;
+  padding: 0.75em;
+}
+
+.navbar .navbar_lang ul {
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	display: none;
+	position: absolute;
+	z-index: 1;
+}
+
+.navbar .navbar_lang button {
+  -webkit-appearance: none;
+  background-color: #000000;
+  border: none;
+  padding: 1em;
+}
+
+.navbar .navbar_lang:hover button {
+  background-color: #67A38D;
+}
+
+.navbar .navbar_lang:hover ul {
+	display: block;
+}
+
+.navbar .navbar_lang_contents ul {
+  padding: 0.5em 0;
+}
+
+.navbar .navbar_lang_contents li {
+	padding: 0.5em 1em;
+	display: block;
+}
+
+.navbar .navbar_lang_contents li a {
+	text-decoration: none;
+}
+
+.navbar .navbar_lang img {
+  height: 15px;
+  width: 20px;
+}
+
+@media only screen and (max-width : 992px){
+
+  .navbar .active {
+    background-color: initial;
+  }
+
+  .navbar .navbar_menu a {
+    color: initial;
+  }
+
+  .navbar .navbar_menu a:hover {
+    color: #67A38D;
+  }
+
+  .navbar .navbar_menu_toggle {
+    display: block;
+  }
+
+  .navbar .navbar_menu_contents ul {
+    float: none;
+    padding: 0.5em 0;
+  }
+
+  .navbar .navbar_menu_contents li {
+    float: none;
+    padding: 0.5em 1.2em 0.5em 0.9em;
+  }
+
+  .navbar .navbar_menu ul {
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  	display: none;
+  	position: absolute;
+  	z-index: 1;
+  }
+
+  .navbar .navbar_menu button {
+    -webkit-appearance: none;
+    background-color: #000000;
+    border: none;
+    color: white;
+    padding: 1em;
+  }
+
+  .navbar .navbar_menu:hover button {
+    background-color: #67A38D;
+  }
+
+  .navbar .navbar_menu:hover ul {
+  	display: block;
+  }
+
+}

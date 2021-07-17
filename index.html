@@ -3,51 +3,103 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://unpkg.com/balloon-css/balloon.min.css">
 		<title>Giancarlo Antonucci</title>
-		<link rel="stylesheet" href="css/main.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
 	</head>
 
 	<body>
 
-		<navbar>
-			<ul>
-				<li><a class="active" href="index.html">Home</a></li>
-					<div id="link1" class="dItem">
-					<div class="dropdown-two">
+		<nav class="navbar">
+			<div class="navbar_menu">
+				<div class="navbar_menu_toggle">
+					<button>
+						<i class="fa fa-bars fa-fw" aria-hidden="true"></i>
+					</button>
+				</div>
+				<div class="navbar_menu_contents">
+					<ul>
+						<li class="active">
+							<a>
+								<i class="fas fa-home fa-fw" aria-hidden="true"></i> Home
+							</a>
+						</li>
+			      <li>
+							<a>
+								<i class="fas fa-user fa-fw" aria-hidden="true"></i> About
+							</a>
+						</li>
+			      <li>
+							<a>
+								<i class="fas fa-file-alt fa-fw" aria-hidden="true"></i> CV
+							</a>
+						</li>
+			      <li>
+							<a>
+								<i class="fas fa-flask fa-fw" aria-hidden="true"></i> Research
+							</a>
+						</li>
+			      <li>
+							<a>
+								<i class="fas fa-book fa-fw" aria-hidden="true"></i> Blog
+							</a>
+						</li>
+			    </ul>
+				</div>
+			</div>
+			<div class="navbar_lang">
+				<button>
+					<a href="index.html">
+						<img src="images/flag_eng.svg">
+					</a>
+				</button>
+				<div class="navbar_lang_contents">
+					<ul>
+						<li>
+							<a href="index.html">
+								<img src="images/flag_eng.svg">
+							</a>
+						</li>
+						<li>
+							<a href="index_ita.html">
+								<img src="images/flag_ita.svg">
+							</a>
+						</li>
+						<li>
+							<a href="index_scn.html">
+								<img src="images/flag_scn.svg">
+							</a>
+						</li>
+						<li>
+							<a href="index_pmt.html">
+								<img src="images/flag_pmt.svg">
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+	  </nav>
 
-						<li><a href="about.html">About</a></li>
-						<li><a href="cv.html">Resume / CV</a></li>
-						<li><a href="research.html">Research</a></li>
-						<li><a href="blog.html">Blog</a></li>
-					</div>
-					<div>
-			</ul>
-
-			<dropdown style="float: right;">
-	      <button>
-	      	<a href="index.html"><img src="images/flag_eng.svg"></a>
-	      </button>
-	      <content>
-					<a href="index.html"><img src="images/flag_eng.svg"></a>
-					<a href="index_ita.html"><img src="images/flag_ita.svg"></a>
-					<a href="index_scn.html"><img src="images/flag_scn.svg"></a>
-					<a href="index_pmt.html"><img src="images/flag_pmt.svg"></a>
-	      </content>
-	    </dropdown>
-		</navbar>
-
-		<home>
+		<div class="home">
 			<img src="images/me.png" alt="Giancarlo Antonino Antonucci">
 			<h1>Giancarlo Antonino Antonucci</h1>
 			<!-- <h2>DPhil (PhD) Student in Applied Mathematics</h2> -->
 			<p>
-				<b>Contacts:</b><br>
-				Office S2.28, Mathematical Institute, Oxford, United Kingdom<br>
-				<a href="mailto:antonucci@maths.ox.ac.uk">antonucci@maths.ox.ac.uk</a><br>
-				<a href="https://www.linkedin.com/in/giancarloantonucci" target="_blank">LinkedIn</a>, <a href="https://github.com/antonuccig" target="_blank">GitHub</a>
+				Office S2.28, Mathematical Institute, Oxford, United Kingdom
 			</p>
-		</home>
+			<div class="home_links">
+				<a class="home_link" aria-label="Mail: antonucci@maths.ox.ac.uk" data-balloon-pos="up" href="mailto:antonucci@maths.ox.ac.uk">
+					<i class="fas fa-envelope fa-fw" aria-hidden="true"></i>
+				</a>
+				<a class="home_link" aria-label="LinkedIn: giancarloantonucci" data-balloon-pos="up" href="https://www.linkedin.com/in/giancarloantonucci" target="_blank">
+					<i class="fab fa-linkedin fa-fw" aria-hidden="true"></i>
+				</a>
+				<a class="home_link" aria-label="Github: @antonuccig" data-balloon-pos="up" href="https://github.com/antonuccig" target="_blank">
+					<i class="fab fa-github fa-fw" aria-hidden="true"></i>
+				</a>
+			</div>
+		</div>
 
 		<main>
 
@@ -120,6 +172,13 @@
 			}
 		</script>
 
+		<script>
+			const navToggle = document.querySelector(".navbar_toggle");
+			const links = document.querySelector(".main_nav");
+			navToggle.addEventListener('click', function(){
+			    links.classList.toggle("show_nav");
+			})
+		</script>
 
 	</body>
 </html>
