@@ -1,5 +1,4 @@
 @import url("https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 @font-face {
   font-family: Sophonetica;
@@ -15,15 +14,62 @@ html {
   font-family: "Computer Modern Serif", serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
+body {
+  margin: 0px;
 }
 
-body {
-  margin: 1em 3em;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
+/* ----------------------------- NAVIGATION BAR ----------------------------- */
+
+navbar ul {
+  background-color: #f3f3f3;
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+navbar li {
+  float: left;
+}
+
+navbar li:last-child {
+  border-right: none;
+}
+
+navbar li a {
+  color: #666;
+  display: block;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+
+navbar li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+navbar .active {
+  color: white;
+  background-color: #04AA6D;
+}
+
+navbar img {
+  height: 18px;
+}
+
+navbar .flag {
+  float: right;
+  text-align: right;
+  height: 21px;
+}
+
+/* --------------------------------- HEADER --------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display", serif;
 }
 
 a {
@@ -33,8 +79,6 @@ a {
 pre {
 	border: solid 1px #a0a0a04d;
 }
-
-/* ---------------------------------------- HEADER ---------------------------------------- */
 
 header {
   display: block;
@@ -66,13 +110,12 @@ header div.language img {
   height: 18px;
 }
 
-/* ----------------------------------------- MAIN ----------------------------------------- */
+/* ---------------------------------- MAIN ---------------------------------- */
 
 main {
-  display: block;
-  /* border: solid 1px #a0a0a04d; */
-  /* counter-reset: css-counter 0; */
-  /* counter-reset: css-counter2 0; */
+  height: 1500px;
+  margin-top: 30px;
+  padding: 20px;
 }
 
 main a {
@@ -88,7 +131,7 @@ main code {
   font-size: 85%;
 }
 
-/* --------------------------------------- CONTACTS --------------------------------------- */
+/* -------------------------------- CONTACTS -------------------------------- */
 
 div.contacts {
   display: block;
@@ -103,7 +146,7 @@ div.contacts img {
   margin: 1em 2em 0em 1em;
 }
 
-/* --------------------------------------- SECTION ---------------------------------------- */
+/* -------------------------------- SECTION --------------------------------- */
 
 section {
   /* border: solid 1px #a0a0a04d; */
@@ -169,7 +212,7 @@ section ul {
   margin-top: 0.5em;
 }
 
-/* ----------------------------------- CURRICULUM VITAE ----------------------------------- */
+/* ---------------------------- CURRICULUM VITAE ---------------------------- */
 
 section.cv {
   padding: 1em 2em;
@@ -192,16 +235,16 @@ section.cv > table td.left {
   vertical-align: top;
 }
 
-/* ---------------------------------------- CANIPA ---------------------------------------- */
+/* --------------------------------- CANIPA --------------------------------- */
 
 div.canipa {
   display: inline;
   font-family: Sophonetica, serif;
 }
 
-/* ------------------------------------- MATHEMATICS -------------------------------------- */
+/* ------------------------------ MATHEMATICS ------------------------------- */
 
-/* 
+/*
 div.environment {
   counter-increment: css-counter 1;
   border: solid 1px #a0a0a04d;
