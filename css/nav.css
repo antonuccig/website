@@ -49,17 +49,12 @@
 	z-index: 1;
 }
 
-.navbar .navbar_lang .navbar_lang_toggle a {
-  color: white;
-  display: block;
-  font-size: 1.5em;
-  text-decoration: none;
-}
-
 .navbar .navbar_lang .navbar_lang_toggle button {
   -webkit-appearance: none;
   background-color: #000000;
+  color: white;
   border: none;
+  font-size: 1em;
   padding: 1em;
   transition: 0.2s;
 }
