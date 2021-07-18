@@ -11,67 +11,87 @@
   padding: 0;
 }
 
-.navbar .active {
-  background-color: #67A38D;
+.navbar li.active {
+  background-color: #1eaedb;
 }
 
-.navbar .navbar_menu a {
-  color: white;
-}
+/* ----------------------------- MENU - DESKTOP ----------------------------- */
 
-.navbar .navbar_menu li:not(.active) a:hover {
-  color: #67A38D;
-}
-
-.navbar .navbar_menu_toggle {
+.navbar .navbar_menu .navbar_menu_toggle {
   display: none;
 }
 
-.navbar .navbar_menu_contents li {
-  float: left;
-  padding: 0.75em;
+.navbar .navbar_menu .navbar_menu_contents a {
+  color: white;
 }
+
+.navbar .navbar_menu .navbar_menu_contents li {
+  transition: 0.2s;
+}
+
+.navbar .navbar_menu .navbar_menu_contents li:hover {
+  background-color: #1eaedb;
+}
+
+.navbar .navbar_menu .navbar_menu_contents li {
+  float: left;
+  padding: 0.9em;
+}
+
+/* -------------------------------- LANGUAGE -------------------------------- */
 
 .navbar .navbar_lang ul {
   background-color: #f9f9f9;
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	display: none;
 	position: absolute;
+  right: 0px;
 	z-index: 1;
 }
 
-.navbar .navbar_lang button {
+.navbar .navbar_lang .navbar_lang_toggle a {
+  color: white;
+  display: block;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.navbar .navbar_lang .navbar_lang_toggle button {
   -webkit-appearance: none;
   background-color: #000000;
   border: none;
   padding: 1em;
+  transition: 0.2s;
 }
 
-.navbar .navbar_lang:hover button {
-  background-color: #67A38D;
+.navbar .navbar_lang:hover .navbar_lang_toggle button {
+  background-color: #1eaedb;
 }
 
-.navbar .navbar_lang:hover ul {
+.navbar .navbar_lang:hover .navbar_lang_contents ul {
 	display: block;
+  background-color: black;
 }
 
-.navbar .navbar_lang_contents ul {
-  padding: 0.5em 0;
+.navbar .navbar_lang .navbar_lang_contents li {
+	padding: 0.85em 1em 0.5em 1em;
+  transition: 0.2s;
 }
 
-.navbar .navbar_lang_contents li {
-	padding: 0.5em 1em;
-	display: block;
-}
-
-.navbar .navbar_lang_contents li a {
+.navbar .navbar_lang .navbar_lang_contents li a {
 	text-decoration: none;
 }
 
-.navbar .navbar_lang img {
+.navbar .navbar_lang .navbar_lang_contents li:hover {
+	background-color: #1eaedb;
+}
+
+.navbar .navbar_lang .navbar_lang_contents img {
   height: 15px;
   width: 20px;
 }
+
+/* ------------------------------ MENU - PHONE ------------------------------ */
 
 @media only screen and (max-width : 992px){
 
@@ -79,50 +99,43 @@
     background-color: initial;
   }
 
-  .navbar .navbar_menu a {
-    color: initial;
-  }
-
-  .navbar .navbar_menu a:hover {
-    color: #67A38D;
-  }
-
-  .navbar .navbar_menu_toggle {
+  .navbar .navbar_menu .navbar_menu_toggle {
     display: block;
   }
 
-  .navbar .navbar_menu_contents ul {
-    float: none;
-    padding: 0.5em 0;
+  .navbar .navbar_menu .navbar_menu_toggle button {
+    -webkit-appearance: none;
+    background-color: #000000;
+    border: none;
+    color: white;
+    font-size: 1em;
+    padding: 1em;
+    transition: 0.2s;
   }
 
-  .navbar .navbar_menu_contents li {
-    float: none;
-    padding: 0.5em 1.2em 0.5em 0.9em;
+  .navbar .navbar_menu:hover .navbar_menu_toggle button {
+    background-color: #1eaedb;
   }
 
-  .navbar .navbar_menu ul {
-    background-color: #f9f9f9;
+  .navbar .navbar_menu .navbar_menu_contents ul {
+    background-color: black;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   	display: none;
   	position: absolute;
   	z-index: 1;
   }
 
-  .navbar .navbar_menu button {
-    -webkit-appearance: none;
-    background-color: #000000;
-    border: none;
-    color: white;
-    padding: 1em;
-  }
-
-  .navbar .navbar_menu:hover button {
-    background-color: #67A38D;
-  }
-
-  .navbar .navbar_menu:hover ul {
+  .navbar .navbar_menu:hover .navbar_menu_contents ul {
   	display: block;
+  }
+
+  .navbar .navbar_menu .navbar_menu_contents li {
+    float: none;
+    padding: 0.75em 1.2em 0.75em 0.9em;
+  }
+
+  .navbar .navbar_menu .navbar_menu_contents a {
+    color: white;
   }
 
 }
