@@ -1,6 +1,6 @@
 @import "https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css";
-@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 @import "nav.css";
+@import "home.css";
 
 @font-face {
   font-family: Sophonetica;
@@ -21,10 +21,8 @@ body {
   margin: 0;
 }
 
-/* ---------------------------------- MAIN ---------------------------------- */
-
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display", serif;
+  font-family: "Simoncini Garamond", serif;
 }
 
 pre {
@@ -40,43 +38,11 @@ a:hover {
   color: #1eaedb;
 }
 
+/* ---------------------------------- MAIN ---------------------------------- */
+
 main code {
   font-family: "Julia-Mono Regular", monospace;
   font-size: 85%;
-}
-
-/* ---------------------------------- HOME ---------------------------------- */
-
-.home {
-  display: block;
-  text-align: center;
-  padding: 2.5em 0;
-}
-
-.home img {
-  border-radius: 7.5em;
-  height: 15em;
-}
-
-.home .home_links {
-  font-size: 1.2em;
-  margin: 1.2em auto;
-  text-align: center;
-}
-
-.home .home_links .home_link {
-  border-radius: 100%;
-  display: inline-block;
-  height: 2em;
-  line-height: 2.2em;
-  margin: 0 0.25em;
-  text-align: center;
-  transition: 0.2s;
-  width: 2em;
-}
-
-.home .home_links .home_link:hover {
-    box-shadow: 0 0 1px 7px rgba(79, 129, 189, 0.15)
 }
 
 /* -------------------------------- SECTION --------------------------------- */
