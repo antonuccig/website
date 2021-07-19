@@ -35,7 +35,7 @@
 
 .navbar .navbar_menu .navbar_menu_contents li {
   float: left;
-  padding: 0.9em;
+  padding: 1em;
 }
 
 /* -------------------------------- LANGUAGE -------------------------------- */
@@ -53,14 +53,19 @@
 
 .navbar .navbar_lang:hover .navbar_lang_toggle button {
   background-color: #1eaedb;
+  position: sticky;
+  z-index: 2;
 }
 
 .navbar .navbar_lang .navbar_lang_contents ul {
   background-color: #f9f9f9;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 1);
 	display: none;
   height: 100%;
-	position: absolute;
+  overflow-x: hidden;
+  position: absolute;
+  margin-bottom: -5000px;
+  padding-bottom: 5000px;
   right: 0px;
   transition: 0.2s;
 	z-index: 1;
@@ -85,8 +90,8 @@
 }
 
 .navbar .navbar_lang .navbar_lang_contents img {
-  height: 15px;
-  width: 20px;
+  height: 1em;
+  width: 1.5em;
 }
 
 /* ------------------------------ MENU - PHONE ------------------------------ */
@@ -113,15 +118,20 @@
 
   .navbar .navbar_menu:hover .navbar_menu_toggle button {
     background-color: #1eaedb;
+    position: sticky;
+    z-index: 2;
   }
 
   .navbar .navbar_menu .navbar_menu_contents ul {
     background-color: black;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 1);
     display: none;
-    height: 100%;
+    height: 100vh;
     left: 0;
+    overflow-x: hidden;
     position: absolute;
+    margin-bottom: -5000px;
+    padding-bottom: 5000px;
     transition: 0.2s;
     z-index: 1;
   }
@@ -132,7 +142,7 @@
 
   .navbar .navbar_menu .navbar_menu_contents li {
     float: none;
-    padding: 0.75em 1.2em 0.75em 0.9em;
+    padding: 0.75em 1.1em 0.75em 0.9em;
   }
 
   .navbar .navbar_menu .navbar_menu_contents a {
