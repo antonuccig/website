@@ -1,7 +1,16 @@
+.wrapper_home {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+
 .home {
   display: block;
   text-align: center;
-  padding: 2.5em 0;
+  padding: 4em 0;
+  position: relative;
 }
 
 .home img {
@@ -11,7 +20,6 @@
 
 .home .home_links {
   font-size: 1.2em;
-  margin: 1.2em auto;
   text-align: center;
 }
 
