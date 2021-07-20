@@ -47,6 +47,7 @@
   border: none;
   font-size: 1em;
   padding: 1em;
+  margin: 0;
   right: 0px;
   transition: 0.2s;
 }
@@ -77,7 +78,7 @@
 }
 
 .navbar .navbar_lang .navbar_lang_contents li {
-	padding: 0.85em 1em 0.5em 1em;
+	padding: 0.95em 0.925em 0.7em 0.925em;
   transition: 0.2s;
 }
 
@@ -113,6 +114,7 @@
     color: white;
     font-size: 1em;
     padding: 1em;
+    margin: 0;
     transition: 0.2s;
   }
 
