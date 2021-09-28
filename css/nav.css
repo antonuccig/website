@@ -106,8 +106,7 @@
 
 /* ------------------------------ MENU - PHONE ------------------------------ */
 
-/* @media only screen and (max-width : 992px){ */
-@media only screen and (max-width : 92px){
+@media only screen and (max-width : 992px){
 
   .navbar .active {
     background-color: initial;

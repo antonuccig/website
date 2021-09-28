@@ -48,22 +48,18 @@ main code {
 /* -------------------------------- SECTION --------------------------------- */
 
 section {
-  /* border: solid 1px #a0a0a04d; */
   display: block;
-  margin: 0em 0em;
-  padding: 0em 2em 1em;
+  padding: 0em 2em 0em;
   position: relative;
 }
 
-section > header {
+section header {
   border-bottom: solid 1px #a0a0a04d;
-  margin: 0 0 1.5em -2em;
-  padding: 0 0 4em 2em;
-  position: relative;
-  width: calc(103.9%);
+  margin: 0 -2em 2em -2em;
+  padding: 0 2em 4em;
 }
 
-section > header > h2, h3 {
+section header h2, header h3 {
   float: left;
 }
 
@@ -72,7 +68,7 @@ section > header > h2, h3 {
   content: counter(css-counter2) ". ";
 } */
 
-section > header > img {
+section header img {
   margin: -0.5em 0 0 0;
   padding: 0.5em;
   float: right;
@@ -81,17 +77,18 @@ section > header > img {
   height: 3.5em;
 }
 
-section > figure {
+section figure {
   margin: 2em 0;
 }
 
-section > figure img {
+section figure img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 100%;
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
-section > figure figcaption {
+section figure figcaption {
   caption-side: bottom;
 }
 
