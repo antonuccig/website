@@ -21,6 +21,10 @@
   display: none;
 }
 
+.navbar .navbar_menu .navbar_menu_toggle button {
+  font-size: 16px;
+}
+
 .navbar .navbar_menu .navbar_menu_contents a {
   color: white;
 }
@@ -40,12 +44,17 @@
 
 /* -------------------------------- LANGUAGE -------------------------------- */
 
+.navbar .navbar_lang .navbar_lang_toggle {
+  height: 100%;
+}
+
 .navbar .navbar_lang .navbar_lang_toggle button {
   -webkit-appearance: none;
   background-color: #000000;
   color: white;
   border: none;
   font-size: 1em;
+  height: 100%;
   padding: 1em;
   margin: 0;
   right: 0px;
@@ -97,7 +106,8 @@
 
 /* ------------------------------ MENU - PHONE ------------------------------ */
 
-@media only screen and (max-width : 992px){
+/* @media only screen and (max-width : 992px){ */
+@media only screen and (max-width : 92px){
 
   .navbar .active {
     background-color: initial;
@@ -149,6 +159,10 @@
 
   .navbar .navbar_menu .navbar_menu_contents a {
     color: white;
+  }
+
+  .navbar .navbar_lang .navbar_lang_toggle {
+    height: 100%;
   }
 
 }
