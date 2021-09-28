@@ -2,28 +2,97 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<title>Giancarlo Antonucci - On the de Broglie-Bohm theory</title>
-		<link rel="stylesheet" href="assets/css/main.css">
-		<link rel="stylesheet" href="assets/css/prism.css">
-		<script src="assets/js/prism.js"></script>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="css/style.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+		<!-- Maths -->
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  	<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-		<script src="assets/js/maths.js"></script>
+		<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+		<script src="js/maths.js"></script>
+		<!-- Code -->
+		<link rel="stylesheet" href="css/prism.css">
+		<script src="js/prism.js"></script>
+		<title>Bohmian Mechanics</title>
 	</head>
 	<body>
-		<header>
-			<div class="homepage">
-				<a href="index.html">🏠</a>
+    <nav class="navbar">
+			<div class="navbar_menu">
+				<div class="navbar_menu_toggle">
+					<button>
+						<i class="fas fa-bars fa-lg" aria-hidden="true"></i>
+					</button>
+				</div>
+				<div class="navbar_menu_contents">
+					<ul>
+						<li>
+							<a href="index.html">
+								<i class="fas fa-home fa-fw" aria-hidden="true"></i> Home
+							</a>
+						</li>
+			      <li>
+							<a href="cv.html">
+								<i class="fas fa-file-alt fa-fw" aria-hidden="true"></i> CV
+							</a>
+						</li>
+			      <li>
+							<a href="research.html">
+								<i class="fas fa-flask fa-fw" aria-hidden="true"></i> Research
+							</a>
+						</li>
+			      <li class="active">
+							<a href="posts.html">
+								<i class="fas fa-book fa-fw" aria-hidden="true"></i> Posts
+							</a>
+						</li>
+			    </ul>
+				</div>
 			</div>
-			<h1>On the de Broglie-Bohm theory</h1>
-			<div class="language">
-				<a href="eng_bohm.html"><img src="images/flags/eng.png" width="18px"></a>
-				<a href="ita_bohm.html"><img src="images/flags/ita.png" width="18px"></a>
-				<a href="scn_bohm.html"><img src="images/flags/scn.png" width="18px"></a>
+			<div class="navbar_lang">
+				<div class="navbar_lang_toggle">
+					<button>
+						<i class="fas fa-globe fa-lg" aria-hidden="true"></i>
+					</button>
+				</div>
+				<div class="navbar_lang_contents">
+					<ul>
+						<li class="active">
+							<a href="bohm.html">
+								<img src="images/flag_en.svg">
+							</a>
+						</li>
+						<li>
+							<a href="bohm_it.html">
+								<img src="images/flag_it.svg">
+							</a>
+						</li>
+						<li>
+							<a href="bohm_scn.html">
+								<img src="images/flag_scn.svg">
+							</a>
+						</li>
+						<li>
+							<a href="bohm_pms.html">
+								<img src="images/flag_pms.svg">
+							</a>
+						</li>
+					</ul>
+				</div>
 			</div>
-		</header>
+	  </nav>
 		<main>
 			<section>
+				<header>
+					<h2>Bohmian Mechanics</h2>
+				</header>
+				<div id="toc_container">
+					<ul class="toc_list">
+					  <li><a href="#1">Introduction</a></li>
+						<li><a href="#2">The double-slit experiment</a></li>
+						<li><a href="#3">References</a></li>
+					</ul>
+				</div>
+			</section>
+			<section id="1">
 				<header>
 					<h3>Introduction</h3>
 				</header>
@@ -53,7 +122,7 @@
 					An immediate consequence of \eqref{eq:guidance} is that quantum trajectories do not cross each other: if they had, two particles would have shared the same point, making the wave function multi-valued at that point.
 				</p>
 			</section>
-			<section id="DS">
+			<section id="2">
 				<header>
 					<h3>The double-slit experiment</h3>
 				</header>
@@ -92,7 +161,7 @@ solution = solve(problem, solver)</code></pre>
 					= 0.225$.</figcaption>
 				</figure>
 			</section>
-			<section id="RF">
+			<section id="3">
 				<header>
 					<h3>References</h3>
 				</header>

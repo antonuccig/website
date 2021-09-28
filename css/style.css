@@ -13,7 +13,7 @@
 }
 
 html {
-  font-family: "Computer Modern Serif", serif;
+  font-family: "Computer Modern Sans", sans-serif;
 }
 
 body {
@@ -22,7 +22,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Simoncini Garamond", serif;
+  /* font-family: "Simoncini Garamond", serif; */
 }
 
 pre {
@@ -100,7 +100,6 @@ section > table {
 }
 
 section > table td.left {
-  width: 5em;
   padding-right: 1em;
   vertical-align: top;
   text-align: right;
