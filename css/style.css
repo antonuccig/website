@@ -12,6 +12,11 @@
   src: url(../fonts/SimonciniGaramond.ttf);
 }
 
+@font-face {
+  font-family: "SimonCani";
+  src: url(../fonts/SimonciniGaramond.ttf);
+}
+
 svg {
   font-family: Sophonetica, sans-serif;
 }
