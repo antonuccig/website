@@ -146,10 +146,7 @@
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="660" height="106" style="width:660px;height:106px;background:0 0">
     <defs>
       <style type="text/css">
-        @font-face {
-          font-family: Sophonetica;
-          src: url(https://cdn.jsdelivr.net/gh/antonuccig/Sophonetica/font.css);
-        }
+        @import "https://cdn.jsdelivr.net/gh/antonuccig/Sophonetica/font.css";
       </style>
     </defs>
     <text x="183.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">a</text>
