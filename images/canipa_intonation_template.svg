@@ -1,51 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="662" height="108" style="width:662px;height:108px;background:0 0;fill:none">
+<svg xmlns="http://www.w3.org/2000/svg" width="377" height="108" style="width:377px;height:108px;background:0 0;fill:none">
   <svg xmlns="http://www.w3.org/2000/svg" class="role-diagram-draw-area">
     <g class="shapes-region" style="stroke:#000;fill:none">
       <g class="grouped-shape">
-        <g class="composite-shape">
-          <path class="real" d="M435 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="composite-shape">
-          <path class="real" d="M450 30h45v45.5h-45Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="composite-shape">
-          <path class="real" d="M495 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="composite-shape">
-          <path class="real" d="M510 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="arrow-line">
-          <path class="connection real" d="M525 30h-90" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="arrow-line">
-          <path class="connection real" d="M435 75.5h90" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="arrow-line">
-          <path class="connection real" d="M435 30v45.5" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="arrow-line">
-          <path class="connection real" d="M525 30v45.5" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="arrow-line">
-          <path class="connection real" d="M525 45.17h-90" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:1px;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="arrow-line">
-          <path class="connection real" d="M525 60.33h-90" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:1px;fill:none;fill-opacity:1"/>
-        </g>
-      </g>
-      <g class="grouped-shape">
-        <g class="composite-shape">
-          <path class="real" d="M180 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="composite-shape">
-          <path class="real" d="M195 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="composite-shape">
-          <path class="real" d="M210 30h45v45.5h-45Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
-        </g>
-        <g class="composite-shape">
-          <path class="real" d="M255 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
-        </g>
         <g class="composite-shape">
           <path class="real" d="M270 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
         </g>
@@ -58,110 +14,154 @@
         <g class="composite-shape">
           <path class="real" d="M345 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
         </g>
+        <g class="arrow-line">
+          <path class="connection real" d="M360 30h-90" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="arrow-line">
+          <path class="connection real" d="M270 75.5h90" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="arrow-line">
+          <path class="connection real" d="M270 30v45.5" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="arrow-line">
+          <path class="connection real" d="M360 30v45.5" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="arrow-line">
+          <path class="connection real" d="M360 45.17h-90" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:1px;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="arrow-line">
+          <path class="connection real" d="M360 60.33h-90" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:1px;fill:none;fill-opacity:1"/>
+        </g>
+      </g>
+      <g class="grouped-shape">
         <g class="composite-shape">
-          <path class="real" d="M360 30h45v45.5h-45Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
+          <path class="real" d="M15 30h15v45.5H15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
         </g>
         <g class="composite-shape">
-          <path class="real" d="M405 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
+          <path class="real" d="M30 30h15v45.5H30Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="composite-shape">
+          <path class="real" d="M45 30h45v45.5H45Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="composite-shape">
+          <path class="real" d="M90 30h15v45.5H90Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="composite-shape">
+          <path class="real" d="M105 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="composite-shape">
+          <path class="real" d="M120 30h45v45.5h-45Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="composite-shape">
+          <path class="real" d="M165 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="composite-shape">
+          <path class="real" d="M180 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="composite-shape">
+          <path class="real" d="M195 30h45v45.5h-45Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
+        </g>
+        <g class="composite-shape">
+          <path class="real" d="M240 30h15v45.5h-15Z" style="stroke-width:1px;stroke:#4a4a4a;stroke-opacity:1;fill:none;fill-opacity:1"/>
         </g>
         <g class="arrow-line">
-          <path class="connection real" d="M180 60.3h240" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:1px;fill:none;fill-opacity:1"/>
+          <path class="connection real" d="M15 60.3h240" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:1px;fill:none;fill-opacity:1"/>
         </g>
         <g class="arrow-line">
-          <path class="connection real" d="m180 45.17 240 .33" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:1px;fill:none;fill-opacity:1"/>
+          <path class="connection real" d="m15 45.17 240 .33" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:1px;fill:none;fill-opacity:1"/>
         </g>
         <g class="arrow-line">
-          <path class="connection real" d="M180 30h240" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
+          <path class="connection real" d="M15 30h240" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
         </g>
         <g class="arrow-line">
-          <path class="connection real" d="M180 75.5h240" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
+          <path class="connection real" d="M15 75.5h240" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
         </g>
         <g class="arrow-line">
-          <path class="connection real" d="M180 30v45.5" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
+          <path class="connection real" d="M15 30v45.5" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
         </g>
         <g class="arrow-line">
-          <path class="connection real" d="M420 75.5V30" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
+          <path class="connection real" d="M255 75.5V30" style="stroke:#4a4a4a;stroke-opacity:1;stroke-width:2px;fill:none;fill-opacity:1"/>
         </g>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="M502.5 15h15" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
-        <circle r="2.01" fill="#000" transform="translate(517.5 15)" style="stroke:#000;fill:#000;stroke-width:1px"/>
-        <circle r="2.01" fill="#000" transform="translate(502.5 15)" style="stroke:#000;fill:#000;stroke-width:1px"/>
+        <path class="connection real" d="M337.5 15h15" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <circle r="2.01" fill="#000" transform="translate(352.5 15)" style="stroke:#000;fill:#000;stroke-width:1px"/>
+        <circle r="2.01" fill="#000" transform="translate(337.5 15)" style="stroke:#000;fill:#000;stroke-width:1px"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="M457.5 15h30" style="stroke:#000;stroke-width:3px;fill:none;fill-opacity:1"/>
+        <path class="connection real" d="M292.5 15h30" style="stroke:#000;stroke-width:3px;fill:none;fill-opacity:1"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="M442.5 15h15" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
-        <circle r="2.01" fill="#000" transform="translate(442.5 15)" style="stroke:#000;fill:#000;stroke-width:1px"/>
+        <path class="connection real" d="M277.5 15h15" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <circle r="2.01" fill="#000" transform="translate(277.5 15)" style="stroke:#000;fill:#000;stroke-width:1px"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="M487.5 15h15" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <path class="connection real" d="M322.5 15h15" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="m187.5 15 15 .05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
-        <circle r="2.01" fill="#000" transform="rotate(.19 -4437.175 61072.708)" style="stroke:#000;fill:#000;stroke-width:1px"/>
-        <circle r="2.01" fill="#000" transform="rotate(.19 -4429.597 56549.336)" style="stroke:#000;fill:#000;stroke-width:1px"/>
+        <path class="connection real" d="m22.5 15 15 .05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <circle r="2.01" fill="#000" transform="rotate(.19 -4519.675 11315.892)" style="stroke:#000;fill:#000;stroke-width:1px"/>
+        <circle r="2.01" fill="#000" transform="rotate(.19 -4512.097 6792.52)" style="stroke:#000;fill:#000;stroke-width:1px"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="M217.5 15h30" style="stroke:#000;stroke-width:3px;fill:none;fill-opacity:1"/>
+        <path class="connection real" d="M52.5 15h30" style="stroke:#000;stroke-width:3px;fill:none;fill-opacity:1"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="M292 15.05h30" style="stroke:#000;stroke-width:3px;fill:none;fill-opacity:1"/>
+        <path class="connection real" d="M127 15.05h30" style="stroke:#000;stroke-width:3px;fill:none;fill-opacity:1"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="M367.5 15h30" style="stroke:#000;stroke-width:3px;fill:none;fill-opacity:1"/>
+        <path class="connection real" d="M202.5 15h30" style="stroke:#000;stroke-width:3px;fill:none;fill-opacity:1"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="M262.5 15.05h15" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
-        <circle r="2.01" fill="#000" transform="translate(277.5 15.05)" style="stroke:#000;fill:#000;stroke-width:1px"/>
-        <circle r="2.01" fill="#000" transform="translate(262.5 15.05)" style="stroke:#000;fill:#000;stroke-width:1px"/>
+        <path class="connection real" d="M97.5 15.05h15" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <circle r="2.01" fill="#000" transform="translate(112.5 15.05)" style="stroke:#000;fill:#000;stroke-width:1px"/>
+        <circle r="2.01" fill="#000" transform="translate(97.5 15.05)" style="stroke:#000;fill:#000;stroke-width:1px"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="m337.5 15 15 .05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
-        <circle r="2.01" fill="#000" transform="rotate(.19 -4362.175 106306.176)" style="stroke:#000;fill:#000;stroke-width:1px"/>
-        <circle r="2.01" fill="#000" transform="rotate(.19 -4354.597 101782.805)" style="stroke:#000;fill:#000;stroke-width:1px"/>
+        <path class="connection real" d="m172.5 15 15 .05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <circle r="2.01" fill="#000" transform="rotate(.19 -4444.675 56549.36)" style="stroke:#000;fill:#000;stroke-width:1px"/>
+        <circle r="2.01" fill="#000" transform="rotate(.19 -4437.097 52025.989)" style="stroke:#000;fill:#000;stroke-width:1px"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="m202.5 15.05 15-.05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <path class="connection real" d="m37.5 15.05 15-.05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="m247.5 15 15 .05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <path class="connection real" d="m82.5 15 15 .05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="M277.5 15.05H292" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <path class="connection real" d="M112.5 15.05H127" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="m322 15.05 15.5-.05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <path class="connection real" d="m157 15.05 15.5-.05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="m352.5 15.05 15-.05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <path class="connection real" d="m187.5 15.05 15-.05" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
       </g>
       <g class="arrow-line">
-        <path class="connection real" d="M397.5 15h15" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
-        <circle r="2.01" fill="#000" transform="translate(412.5 15)" style="stroke:#000;fill:#000;stroke-width:1px"/>
+        <path class="connection real" d="M232.5 15h15" style="stroke:#000;stroke-width:1px;fill:none;fill-opacity:1"/>
+        <circle r="2.01" fill="#000" transform="translate(247.5 15)" style="stroke:#000;fill:#000;stroke-width:1px"/>
       </g>
     </g>
   </svg>
-  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="660" height="106" style="width:660px;height:106px;background:0 0">
+  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="375" height="106" style="width:375px;height:106px;background:0 0">
     <defs>
       <style type="text/css">
         @import "https://cdn.jsdelivr.net/gh/antonuccig/Sophonetica/font.css";
       </style>
     </defs>
-    <text x="183.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">a</text>
-    <text x="198.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">b</text>
-    <text x="228.75" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">c</text>
-    <text x="258.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">d</text>
-    <text x="273.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">e</text>
-    <text x="305.408" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">f</text>
-    <text x="333.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">g</text>
-    <text x="348.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">h</text>
-    <text x="380.834" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">i</text>
-    <text x="410.834" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">j</text>
-    <text x="438.005" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">A</text>
-    <text x="467.49" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">B</text>
-    <text x="498.006" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">C</text>
-    <text x="513.006" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">D</text>
+    <text x="18.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">a</text>
+    <text x="33.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">b</text>
+    <text x="63.75" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">c</text>
+    <text x="93.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">d</text>
+    <text x="108.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">e</text>
+    <text x="140.408" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">f</text>
+    <text x="168.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">g</text>
+    <text x="183.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">h</text>
+    <text x="215.834" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">i</text>
+    <text x="245.834" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">j</text>
+    <text x="273.005" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">A</text>
+    <text x="302.49" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">B</text>
+    <text x="333.006" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">C</text>
+    <text x="348.006" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">D</text>
   </svg>
 </svg>
