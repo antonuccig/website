@@ -12,6 +12,10 @@
   src: url(../fonts/SimonciniGaramond.ttf);
 }
 
+svg {
+  font-family: Sophonetica, sans-serif;
+}
+
 html {
   font-family: "Computer Modern Sans", sans-serif;
 }
