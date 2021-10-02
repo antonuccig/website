@@ -147,24 +147,24 @@
     <defs>
       <style type="text/css">
         @font-face {
-          font-family: SimonCani;
-          src: url(../fonts/SimonciniGaramond.ttf);
+          font-family: Sophonetica;
+          src: url(https://cdn.jsdelivr.net/gh/antonuccig/Sophonetica/font.css);
         }
       </style>
     </defs>
-    <text x="183.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">a</text>
-    <text x="198.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">b</text>
-    <text x="228.75" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">c</text>
-    <text x="258.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">d</text>
-    <text x="273.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">e</text>
-    <text x="305.408" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">f</text>
-    <text x="333.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">g</text>
-    <text x="348.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">h</text>
-    <text x="380.834" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">i</text>
-    <text x="410.834" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">j</text>
-    <text x="438.005" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">A</text>
-    <text x="467.49" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">B</text>
-    <text x="498.006" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">C</text>
-    <text x="513.006" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">D</text>
+    <text x="183.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">a</text>
+    <text x="198.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">b</text>
+    <text x="228.75" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">c</text>
+    <text x="258.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">d</text>
+    <text x="273.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">e</text>
+    <text x="305.408" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">f</text>
+    <text x="333.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">g</text>
+    <text x="348.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">h</text>
+    <text x="380.834" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">i</text>
+    <text x="410.834" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">j</text>
+    <text x="438.005" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">A</text>
+    <text x="467.49" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">B</text>
+    <text x="498.006" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">C</text>
+    <text x="513.006" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">D</text>
   </svg>
 </svg>

@@ -1,11 +1,7 @@
 @import "https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css";
+@import "https://cdn.jsdelivr.net/gh/antonuccig/Sophonetica/font.css";
 @import "nav.css";
 @import "home.css";
-
-@font-face {
-  font-family: Sophonetica;
-  src: url(../fonts/Sophonetica.ttf);
-}
 
 @font-face {
   font-family: "Simoncini Garamond";
@@ -15,10 +11,6 @@
 @font-face {
   font-family: "SimonCani";
   src: url(../fonts/SimonciniGaramond.ttf);
-}
-
-svg {
-  font-family: Sophonetica, sans-serif;
 }
 
 html {
