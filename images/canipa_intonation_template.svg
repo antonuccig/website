@@ -1,12 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="662" height="108" style="width:662px;height:108px;background:0 0;fill:none">
-  <defs>
-    <style type="text/css">
-      @font-face {
-        font-family: SimonCani;
-        src: url('../fonts/SimonciniGaramond.ttf');
-      }
-    </style>
-  </defs>
   <svg xmlns="http://www.w3.org/2000/svg" class="role-diagram-draw-area">
     <g class="shapes-region" style="stroke:#000;fill:none">
       <g class="grouped-shape">
@@ -152,6 +144,14 @@
     </g>
   </svg>
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="660" height="106" style="width:660px;height:106px;font-family:Asana-Math,Asana;background:0 0">
+    <defs>
+      <style type="text/css">
+        @font-face {
+          font-family: SimonCani;
+          src: url(../fonts/SimonciniGaramond.ttf);
+        }
+      </style>
+    </defs>
     <text x="183.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,Arial,Helvetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">a</text>
     <text x="198.329" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,Arial,Helvetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">b</text>
     <text x="228.75" y="80.5" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:SimonCani,Arial,Helvetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">c</text>
