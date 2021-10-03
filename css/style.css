@@ -2,6 +2,7 @@
 @import "https://cdn.jsdelivr.net/gh/antonuccig/Sophonetica/font.css";
 @import "nav.css";
 @import "home.css";
+@import "canipa.css";
 
 html {
   font-family: "Computer Modern Sans", sans-serif;

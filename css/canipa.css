@@ -1,0 +1,21 @@
+canipa {
+  font-family: Sophonetica, serif;
+  font-size: 105%;
+}
+
+canipa img {
+   display: none
+}
+
+canipa.popup:hover + img {
+   display: block;
+}
+
+canipa.popup:hover img {
+   display: block;
+   position: absolute;
+   margin-top: 4px;
+   margin-left: 0px;
+   width: 250px;
+   z-index: 1;
+}
