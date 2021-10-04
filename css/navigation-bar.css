@@ -1,0 +1,165 @@
+.navigation-bar {
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+
+.navigation-bar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation-bar li.active {
+  background-color: #1eaedb;
+}
+
+/* ---------------------------------- MENU ---------------------------------- */
+
+.navigation-bar .navigation-bar-menu button {
+  display: none;
+  font-size: 16px;
+}
+
+.navigation-bar .navigation-bar-menu ul a {
+  color: white;
+}
+
+.navigation-bar .navigation-bar-menu ul li {
+  transition: 0.2s;
+}
+
+.navigation-bar .navigation-bar-menu ul li:hover {
+  background-color: #1eaedb;
+}
+
+.navigation-bar .navigation-bar-menu ul li {
+  float: left;
+  padding: 0.9em;
+  /* max-height: 100%; */
+}
+
+/* -------------------------------- LANGUAGE -------------------------------- */
+
+.navigation-bar .navigation-bar-languages button {
+  -webkit-appearance: none;
+  background-color: #000000;
+  color: white;
+  border: none;
+  font-size: 1em;
+  padding: 1em;
+  margin: 0;
+  transition: 0.2s;
+}
+
+.navigation-bar .navigation-bar-languages ul {
+  background-color: #f9f9f9;
+  box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 1);
+	display: none;
+  overflow-x: hidden;
+  position: absolute;
+  margin-bottom: -5000px;
+  padding-bottom: 5000px;
+  right: 0px;
+  transition: 0.2s;
+	z-index: 1;
+}
+
+.navigation-bar .navigation-bar-languages ul li {
+	padding: 0.95em 0.925em 0.7em 0.925em;
+  transition: 0.2s;
+}
+
+.navigation-bar .navigation-bar-languages ul li a {
+	text-decoration: none;
+}
+
+.navigation-bar .navigation-bar-languages ul li:hover {
+	background-color: #1eaedb;
+}
+
+.navigation-bar .navigation-bar-languages ul img {
+  height: 1em;
+  width: 1.5em;
+}
+
+.navigation-bar .navigation-bar-languages:hover button {
+  background-color: #1eaedb;
+  position: sticky;
+  z-index: 2;
+}
+
+.navigation-bar .navigation-bar-languages:hover ul {
+	display: block;
+  background-color: black;
+}
+
+/* --------------------------------- PHONE ---------------------------------- */
+
+@media only screen and (max-width : 992px) {
+
+.navigation-bar .active {
+  background-color: initial;
+}
+
+.navigation-bar .navigation-bar-menu button {
+  -webkit-appearance: none;
+  background-color: #000000;
+  border: none;
+  color: white;
+  display: block;
+  font-size: 1em;
+  padding: 1em;
+  margin: 0;
+  transition: 0.2s;
+}
+
+.navigation-bar .navigation-bar-menu ul {
+  background-color: black;
+  box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 1);
+  display: none;
+  height: 100vh;
+  left: 0;
+  overflow-x: hidden;
+  position: absolute;
+  margin-bottom: -5000px;
+  padding-bottom: 5000px;
+  transition: 0.2s;
+  z-index: 1;
+}
+
+.navigation-bar .navigation-bar-menu ul li {
+  float: none;
+  padding: 0.75em 1.1em 0.75em 0.9em;
+}
+
+.navigation-bar .navigation-bar-menu ul a {
+  color: white;
+}
+
+.navigation-bar .navigation-bar-menu:hover button {
+  background-color: #1eaedb;
+  position: sticky;
+  z-index: 2;
+}
+
+.navigation-bar .navigation-bar-menu:hover ul {
+	display: block;
+}
+
+.navigation-bar .navigation-bar-languages button {
+  height: 100%;
+}
+
+}
+
+/* --------------------------------- PRINT ---------------------------------- */
+
+@media only print {
+
+.navigation-bar {
+  display: none;
+}
+
+}

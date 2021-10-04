@@ -1,11 +1,14 @@
-@import "https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css";
-@import "https://cdn.jsdelivr.net/gh/antonuccig/Sophonetica/font.css";
-@import "nav.css";
-@import "home.css";
-@import "canipa.css";
+@import 'https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css';
+@import 'https://cdn.jsdelivr.net/gh/giancarloantonucci/carocci-web@main/font.css';
+@import 'https://cdn.jsdelivr.net/gh/giancarloantonucci/sophonetica@main/font.css';
+
+@import 'navigation-bar.css';
+@import 'home-page.css';
+@import 'canipa.css';
+@import 'balloon.css';
 
 html {
-  font-family: "Computer Modern Sans", sans-serif;
+  font-family: 'Computer Modern Sans', sans-serif;
 }
 
 body {
@@ -29,7 +32,7 @@ a:hover {
 /* ---------------------------------- MAIN ---------------------------------- */
 
 main code {
-  font-family: "Julia-Mono Regular", monospace;
+  font-family: 'Julia-Mono Regular', monospace;
   font-size: 85%;
 }
 
@@ -53,7 +56,7 @@ section header h2, header h3 {
 
 /* section > header > h3.numbered:before {
   counter-increment: css-counter2 1;
-  content: counter(css-counter2) ". ";
+  content: counter(css-counter2) '. ';
 } */
 
 section header img {
@@ -142,27 +145,27 @@ div.environment ul {
 }
 
 div.environment.corollary:before {
-  content: "Corollary " counter(css-counter2) "." counter(css-counter) ": ";
+  content: 'Corollary ' counter(css-counter2) '.' counter(css-counter) ': ';
   font-weight: bold;
 }
 
 div.environment.definition:before {
-  content: "Definition " counter(css-counter2) "." counter(css-counter) ": ";
+  content: 'Definition ' counter(css-counter2) '.' counter(css-counter) ': ';
   font-weight: bold;
 }
 
 div.environment.lemma:before {
-  content: "Lemma " counter(css-counter2) "." counter(css-counter) ": ";
+  content: 'Lemma ' counter(css-counter2) '.' counter(css-counter) ': ';
   font-weight: bold;
 }
 
 div.environment.proposition:before {
-  content: "Proposition " counter(css-counter2) "." counter(css-counter) ": ";
+  content: 'Proposition ' counter(css-counter2) '.' counter(css-counter) ': ';
   font-weight: bold;
 }
 
 div.environment.theorem:before {
-  content: "Theorem " counter(css-counter2) "." counter(css-counter) ": ";
+  content: 'Theorem ' counter(css-counter2) '.' counter(css-counter) ': ';
   font-weight: bold;
 }
 
@@ -172,11 +175,11 @@ div.environment.proof {
 }
 
 div.environment.proof:before {
-  content: "Proof:";
+  content: 'Proof:';
   font-style: italic;
 }
 
 div.environment.proof:after {
   float: right;
-  content: "◼";
+  content: '◼';
 } */

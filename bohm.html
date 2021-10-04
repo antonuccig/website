@@ -3,8 +3,8 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="css/style.css">
-		<script type="text/javascript"> (function() { var css = document.createElement('link'); css.href = 'https://use.fontawesome.com/releases/v5.15.4/css/all.css'; css.rel = 'stylesheet'; css.type = 'text/css'; document.getElementsByTagName('head')[0].appendChild(css); })(); </script>
+		<link href="css/main.css" rel="stylesheet">
+		<script src="js/fontawesome.js"></script>
 		<!-- Maths -->
 		<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 		<script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -15,68 +15,60 @@
 		<title>Giancarlo Antonucci – The de Broglie–Bohm Interpretation of Quantum Mechanics</title>
 	</head>
 	<body>
-    <nav class="navbar">
-			<div class="navbar_menu">
-				<div class="navbar_menu_toggle">
-					<button>
-						<i class="fas fa-bars fa-lg" aria-hidden="true"></i>
-					</button>
-				</div>
-				<div class="navbar_menu_contents">
-					<ul>
-						<li>
-							<a href="index.html">
-								<i class="fas fa-home fa-fw" aria-hidden="true"></i> Home Page
-							</a>
-						</li>
-			      <li>
-							<a href="cv.html">
-								<i class="fas fa-file-alt fa-fw" aria-hidden="true"></i> Curriculum Vitae
-							</a>
-						</li>
-			      <li>
-							<a href="research.html">
-								<i class="fas fa-flask fa-fw" aria-hidden="true"></i> Research
-							</a>
-						</li>
-			      <li class="active">
-							<a href="blog.html">
-								<i class="fas fa-book fa-fw" aria-hidden="true"></i> Blog
-							</a>
-						</li>
-			    </ul>
-				</div>
+    <nav class="navigation-bar">
+			<div class="navigation-bar-menu">
+				<button>
+					<i class="fas fa-bars fa-lg" aria-hidden="true"></i>
+				</button>
+				<ul>
+					<li>
+						<a href="index.html">
+							<i class="fas fa-home fa-fw" aria-hidden="true"></i> Home Page
+						</a>
+					</li>
+					<li>
+						<a href="cv.html">
+							<i class="fas fa-file-alt fa-fw" aria-hidden="true"></i> Curriculum Vitae
+						</a>
+					</li>
+					<li>
+						<a href="research.html">
+							<i class="fas fa-flask fa-fw" aria-hidden="true"></i> Research
+						</a>
+					</li>
+					<li class="active">
+						<a href="blog.html">
+							<i class="fas fa-book fa-fw" aria-hidden="true"></i> Blog
+						</a>
+					</li>
+				</ul>
 			</div>
-			<div class="navbar_lang">
-				<div class="navbar_lang_toggle">
-					<button>
-						<i class="fas fa-globe fa-lg" aria-hidden="true"></i>
-					</button>
-				</div>
-				<div class="navbar_lang_contents">
-					<ul>
-						<li class="active">
-							<a href="bohm.html">
-								<img src="images/flag_en.svg">
-							</a>
-						</li>
-						<li>
-							<a href="bohm_it.html">
-								<img src="images/flag_it.svg">
-							</a>
-						</li>
-						<li>
-							<a href="bohm_scn.html">
-								<img src="images/flag_scn.svg">
-							</a>
-						</li>
-						<li>
-							<a href="bohm_pms.html">
-								<img src="images/flag_pms.svg">
-							</a>
-						</li>
-					</ul>
-				</div>
+			<div class="navigation-bar-languages">
+				<button>
+					<i class="fas fa-globe fa-lg" aria-hidden="true"></i>
+				</button>
+				<ul>
+					<li class="active">
+						<a href="bohm.html">
+							<img src="images/flag_en.svg">
+						</a>
+					</li>
+					<li>
+						<a href="bohm-it.html">
+							<img src="images/flag-it.svg">
+						</a>
+					</li>
+					<li>
+						<a href="bohm-scn.html">
+							<img src="images/flag-scn.svg">
+						</a>
+					</li>
+					<li>
+						<a href="bohm_pms.html">
+							<img src="images/flag_pms.svg">
+						</a>
+					</li>
+				</ul>
 			</div>
 	  </nav>
 		<main>
@@ -148,9 +140,9 @@
 					\begin{equation}
 						\dv{y}{t} = \Im{\left( \frac{1}{\psi} \pdv{\psi}{y} \right)} = \Im{\left[ \frac{(y_1 - y)\psi_1 + (y_2 - y)\psi_2}{\sigma_t^2 (\psi_1 + \psi_2)} \right]},
 					\end{equation}
-					which we solve using the classic 4-th order Runge-Kutta scheme from <a href="https://github.com/antonuccig/RungeKutta.jl"><code class="language-julia">RungeKutta.jl</code></a>:
+					which we solve using the classic 4-th order Runge-Kutta scheme from <a href="https://github.com/antonuccig/RungeKutta.jl"><code class="languagesuage-julia">RungeKutta.jl</code></a>:
 				</p>
-				<pre><code class="language-julia">using RungeKutta
+				<pre><code class="languagesuage-julia">using RungeKutta
 problem = DoubleSlit2D(σ = 0.225)
 solver = RK4(h = 1e-3)
 solution = solve(problem, solver)</code></pre>

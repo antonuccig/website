@@ -1,29 +1,21 @@
-.wrapper_home {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-}
-
-.home {
+.home-page {
   display: block;
   text-align: center;
   padding: 4em 0;
   position: relative;
 }
 
-.home img {
+.home-page img {
   border-radius: 7.5em;
   height: 15em;
 }
 
-.home .home_links {
+.home-page .home-page-links {
   font-size: 1.2em;
   text-align: center;
 }
 
-.home .home_links .home_link {
+.home-page .home-page-links a {
   border-radius: 100%;
   display: inline-block;
   height: 2em;
@@ -34,6 +26,6 @@
   width: 2em;
 }
 
-.home .home_links .home_link:hover {
+.home-page .home-page-links a:hover {
     box-shadow: 0 0 1px 7px rgba(79, 129, 189, 0.15)
 }
