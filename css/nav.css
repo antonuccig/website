@@ -1,46 +1,46 @@
-.navigation-bar {
+nav {
   background-color: #000000;
   display: flex;
   justify-content: space-between;
   width: 100vw;
 }
 
-.navigation-bar ul {
+nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.navigation-bar li.active {
+nav li.active {
   background-color: #1eaedb;
 }
 
 /* ---------------------------------- MENU ---------------------------------- */
-.navigation-bar .navigation-bar-menu button {
+nav .nav-menu button {
   display: none;
   font-size: 16px;
 }
 
-.navigation-bar .navigation-bar-menu ul a {
+nav .nav-menu ul a {
   color: white;
 }
 
-.navigation-bar .navigation-bar-menu ul li {
+nav .nav-menu ul li {
   transition: 0.2s;
 }
 
-.navigation-bar .navigation-bar-menu ul li:hover {
+nav .nav-menu ul li:hover {
   background-color: #1eaedb;
 }
 
-.navigation-bar .navigation-bar-menu ul li {
+nav .nav-menu ul li {
   float: left;
   padding: 0.9em;
   /* max-height: 100%; */
 }
 
 /* -------------------------------- LANGUAGE -------------------------------- */
-.navigation-bar .navigation-bar-languages button {
+nav .nav-languages button {
   -webkit-appearance: none;
   background-color: #000000;
   color: white;
@@ -51,7 +51,7 @@
   transition: 0.2s;
 }
 
-.navigation-bar .navigation-bar-languages ul {
+nav .nav-languages ul {
   background-color: #f9f9f9;
   box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 1);
   display: none;
@@ -64,42 +64,42 @@
   z-index: 1;
 }
 
-.navigation-bar .navigation-bar-languages ul li {
+nav .nav-languages ul li {
   padding: 0.95em 0.925em 0.7em 0.925em;
   transition: 0.2s;
 }
 
-.navigation-bar .navigation-bar-languages ul li a {
+nav .nav-languages ul li a {
   text-decoration: none;
 }
 
-.navigation-bar .navigation-bar-languages ul li:hover {
+nav .nav-languages ul li:hover {
   background-color: #1eaedb;
 }
 
-.navigation-bar .navigation-bar-languages ul img {
+nav .nav-languages ul img {
   height: 1em;
   width: 1.5em;
 }
 
-.navigation-bar .navigation-bar-languages:hover button {
+nav .nav-languages:hover button {
   background-color: #1eaedb;
   position: sticky;
   z-index: 2;
 }
 
-.navigation-bar .navigation-bar-languages:hover ul {
+nav .nav-languages:hover ul {
   display: block;
   background-color: black;
 }
 
 /* --------------------------------- PHONE ---------------------------------- */
 @media only screen and (max-width : 992px) {
-  .navigation-bar .active {
+  nav .active {
     background-color: initial;
   }
 
-  .navigation-bar .navigation-bar-menu button {
+  nav .nav-menu button {
     -webkit-appearance: none;
     background-color: #000000;
     border: none;
@@ -111,7 +111,7 @@
     transition: 0.2s;
   }
 
-  .navigation-bar .navigation-bar-menu ul {
+  nav .nav-menu ul {
     background-color: black;
     box-shadow: 0px -10px 16px 0px rgba(0, 0, 0, 1);
     display: none;
@@ -125,33 +125,33 @@
     z-index: 1;
   }
 
-  .navigation-bar .navigation-bar-menu ul li {
+  nav .nav-menu ul li {
     float: none;
     padding: 0.75em 1.1em 0.75em 0.9em;
   }
 
-  .navigation-bar .navigation-bar-menu ul a {
+  nav .nav-menu ul a {
     color: white;
   }
 
-  .navigation-bar .navigation-bar-menu:hover button {
+  nav .nav-menu:hover button {
     background-color: #1eaedb;
     position: sticky;
     z-index: 2;
   }
 
-  .navigation-bar .navigation-bar-menu:hover ul {
+  nav .nav-menu:hover ul {
     display: block;
   }
 
-  .navigation-bar .navigation-bar-languages button {
+  nav .nav-languages button {
     height: 100%;
   }
 }
 
 /* --------------------------------- PRINT ---------------------------------- */
 @media only print {
-  .navigation-bar {
+  nav {
     display: none;
   }
 }
