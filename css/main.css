@@ -1,9 +1,8 @@
 @import 'https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css';
 @import 'https://cdn.jsdelivr.net/gh/giancarloantonucci/carocci-web@main/font.css';
 @import 'https://cdn.jsdelivr.net/gh/giancarloantonucci/sophonetica@main/font.css';
-
-@import 'navigation-bar.css';
-@import 'home-page.css';
+@import 'nav.css';
+@import 'home.css';
 @import 'canipa.css';
 @import 'balloon.css';
 
@@ -14,10 +13,12 @@ html {
 body {
   padding: 0;
   margin: 0;
+  /* margin-bottom: 2em; */
 }
 
+/* ---------------------------------- MAIN ---------------------------------- */
 pre {
-	border: solid 1px #a0a0a04d;
+  border: solid 1px #a0a0a04d;
 }
 
 a {
@@ -29,18 +30,15 @@ a:hover {
   color: #1eaedb;
 }
 
-/* ---------------------------------- MAIN ---------------------------------- */
-
-main code {
+code {
   font-family: 'Julia-Mono Regular', monospace;
   font-size: 85%;
 }
 
 /* -------------------------------- SECTION --------------------------------- */
-
 section {
   display: block;
-  padding: 0em 2em 0em;
+  padding: 0em 4em 0em;
   position: relative;
 }
 
@@ -58,7 +56,6 @@ section header h2, header h3 {
   counter-increment: css-counter2 1;
   content: counter(css-counter2) '. ';
 } */
-
 section header img {
   margin: -0.5em 0 0 0;
   padding: 0.5em;
@@ -83,11 +80,11 @@ section figure figcaption {
   caption-side: bottom;
 }
 
-section > table {
+section>table {
   margin-bottom: 1em;
 }
 
-section > table td.left {
+section>table td.left {
   padding-right: 1em;
   vertical-align: top;
   text-align: right;
@@ -99,7 +96,6 @@ section ul {
 }
 
 /* ---------------------------- CURRICULUM VITAE ---------------------------- */
-
 section.cv {
   padding: 1em 2em;
 }
@@ -110,11 +106,11 @@ section.cv ul {
   margin-left: -1em;
 }
 
-section.cv > table td {
+section.cv>table td {
   padding-bottom: 0.25em;
 }
 
-section.cv > table td.left {
+section.cv>table td.left {
   width: 6em;
   padding-right: 1em;
   text-align: right;
@@ -122,14 +118,12 @@ section.cv > table td.left {
 }
 
 /* --------------------------------- CANIPA --------------------------------- */
-
 div.canipa {
   display: inline;
   font-family: Sophonetica, serif;
 }
 
 /* ------------------------------ MATHEMATICS ------------------------------- */
-
 /*
 div.environment {
   counter-increment: css-counter 1;

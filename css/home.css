@@ -1,0 +1,26 @@
+home {
+  display: block;
+  padding: 4em 0 2em;
+  position: relative;
+  text-align: center;
+}
+
+home img {
+  border-radius: 7.5em;
+  height: 15em;
+}
+
+home a {
+  border-radius: 100%;
+  display: inline-block;
+  font-size: 1.2em;
+  height: 2em;
+  line-height: 2.2em;
+  margin: 0 0.25em;
+  transition: 0.2s;
+  width: 2em;
+}
+
+home a:hover {
+  box-shadow: 0 0 1px 7px rgba(79, 129, 189, 0.15)
+}
