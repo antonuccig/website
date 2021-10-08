@@ -11,66 +11,63 @@
 <!-- Code -->
 <link rel="stylesheet" href="css/prism.css">
 <script src="js/prism.js"></script>
-<title>Giancarlo Antonucci – The de Broglie–Bohm interpretation of quantum mechanics</title>
+<title>Giancarlo A. Antonucci – The de Broglie–Bohm interpretation of quantum mechanics</title>
 
-<nav class="navigation-bar">
-
-<div class="navigation-bar-menu">
-	<button>
-		<i class="fas fa-bars fa-lg" aria-hidden="true"></i>
-	</button>
-	<ul>
-		<li>
-			<a href="index.html">
-				<i class="fas fa-home fa-fw" aria-hidden="true"></i> Home
-			</a>
-		</li>
-		<li>
-			<a href="cv.html">
-				<i class="fas fa-file-alt fa-fw" aria-hidden="true"></i> CV
-			</a>
-		</li>
-		<li>
-			<a href="research.html">
-				<i class="fas fa-flask fa-fw" aria-hidden="true"></i> Research
-			</a>
-		</li>
-		<li class="active">
-			<a href="blog.html">
-				<i class="fas fa-book fa-fw" aria-hidden="true"></i> Note
-			</a>
-		</li>
-	</ul>
-</div>
-
-<div class="navigation-bar-languages">
-	<button>
-		<i class="fas fa-globe fa-lg" aria-hidden="true"></i>
-	</button>
-	<ul>
-		<li class="active">
-			<a href="bohm.html">
-				<img src="images/flag-en.svg">
-			</a>
-		</li>
-		<li>
-			<a href="bohm-it.html">
-				<img src="images/flag-it.svg">
-			</a>
-		</li>
-		<li>
-			<a href="bohm-scn.html">
-				<img src="images/flag-scn.svg">
-			</a>
-		</li>
-		<li>
-			<a href="bohm-pms.html">
-				<img src="images/flag-pms.svg">
-			</a>
-		</li>
-	</ul>
-</div>
-
+<nav>
+	<div class="nav-menu">
+		<button>
+			<i class="fas fa-bars fa-lg" aria-hidden="true"></i>
+		</button>
+		<ul>
+			<li>
+				<a href="index.html">
+					<i class="fas fa-home fa-fw" aria-hidden="true"></i> Home
+				</a>
+			</li>
+			<li>
+				<a href="cv.html">
+					<i class="fas fa-file-alt fa-fw" aria-hidden="true"></i> CV
+				</a>
+			</li>
+			<li>
+				<a href="research.html">
+					<i class="fas fa-flask fa-fw" aria-hidden="true"></i> Research
+				</a>
+			</li>
+			<li class="active">
+				<a href="blog.html">
+					<i class="fas fa-book fa-fw" aria-hidden="true"></i> Note
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div class="nav-lang">
+		<button>
+			<i class="fas fa-globe fa-lg" aria-hidden="true"></i>
+		</button>
+		<ul>
+			<li class="active">
+				<a href="bohm.html">
+					<img src="images/flag-en.svg">
+				</a>
+			</li>
+			<li>
+				<a href="bohm-it.html">
+					<img src="images/flag-it.svg">
+				</a>
+			</li>
+			<li>
+				<a href="bohm-scn.html">
+					<img src="images/flag-scn.svg">
+				</a>
+			</li>
+			<li>
+				<a href="bohm-pms.html">
+					<img src="images/flag-pms.svg">
+				</a>
+			</li>
+		</ul>
+	</div>
 </nav>
 
 <section>
@@ -78,7 +75,7 @@
 		<h2>The de Broglie–Bohm interpretation of quantum mechanics</h2>
 	</header>
 	<ul>
-	  <li><a href="#1">Introduction</a></li>
+		<li><a href="#1">Introduction</a></li>
 		<li><a href="#2">The double-slit experiment</a></li>
 		<li><a href="#3">References</a></li>
 	</ul>
@@ -89,27 +86,30 @@
 		<h3>Introduction</h3>
 	</header>
 	<p>
-		According to the Copenhagen interpretation of quantum mechanics, particles do not have locations until they are observed. Another interpretation, named after its creators Louis de Broglie <a id="deBroglie1927↓" href="#deBroglie1927↑">[4]</a> and David Bohm <a id="Bohm1952a↓" href="#Bohm1952a↑">[2, </a><a id="Bohm1952b↓" href="#Bohm1952b↑">3]</a>, provides an alternative view in which particles have precise positions at all times.
+		According to the Copenhagen interpretation of quantum mechanics, particles do not have locations until they are observed. Another interpretation, named after its creators Louis de Broglie <a id="deBroglie1927↓" href="#deBroglie1927↑">[4]</a> and
+		David Bohm <a id="Bohm1952a↓" href="#Bohm1952a↑">[2, </a><a id="Bohm1952b↓" href="#Bohm1952b↑">3]</a>, provides an alternative view in which particles have precise positions at all times.
 	</p>
 	<p>
-		Let $q(t)$ denote the configuration of a physical system, i.e. particles, $Q$ be its configuration space and $\psi(q,t)$ be the wave function underlying such a system. According to the de Broglie–Bohm theory, both wave and particles actually exist as separate entities. We characterise the time evolution of a physical system according to a set of two equations: the Schrödinger equation
+		Let $q(t)$ denote the configuration of a physical system, i.e. particles, $Q$ be its configuration space and $\psi(q,t)$ be the wave function underlying such a system. According to the de Broglie–Bohm theory, both wave and particles actually
+		exist as separate entities. We characterise the time evolution of a physical system according to a set of two equations: the Schrödinger equation
 		\begin{equation} \label{eq:schrodinger}
-			i\hbar \pdv{\psi}{t} = H\psi,
+		i\hbar \pdv{\psi}{t} = H\psi,
 		\end{equation}
 		where $H$ is the Hamiltonian operator, and the guidance equation
 		\begin{equation}
-			\dv{q}{t} = v^\psi(q),
+		\dv{q}{t} = v^\psi(q),
 		\end{equation}
-		where $v^\psi = J/\rho$ is a velocity field that can be obtained from the Schrödinger equation itself through the quantum probability density $\rho = \inner{\psi}{\psi}$ and the quantum probability current $J$ <a id="Durr2013↓" href="#Durr2013↑">[5]</a>.
+		where $v^\psi = J/\rho$ is a velocity field that can be obtained from the Schrödinger equation itself through the quantum probability density $\rho = \inner{\psi}{\psi}$ and the quantum probability current $J$ <a id="Durr2013↓"
+			href="#Durr2013↑">[5]</a>.
 	</p>
 	<p>
 		For a non-relativistic system of $N$ particles, each of mass $m_i$, moving subject to a potential $V(r,t)$, the Hamiltonian writes as
 		\begin{equation}
-			H = \sum_{i=1}^N \frac{p_i^2}{2m_i} + V = - \sum_{i=1}^N \frac{\hbar^2}{2m_i} \nabla_i^2 + V,
+		H = \sum_{i=1}^N \frac{p_i^2}{2m_i} + V = - \sum_{i=1}^N \frac{\hbar^2}{2m_i} \nabla_i^2 + V,
 		\end{equation}
 		where $p_i = -i\hbar\grad_i$ deblog the momentum ascribed to the coordinates of the $i$-th particle, respectively. Similarly, the guidance equation becomes
 		\begin{equation} \label{eq:guidance}
-			\dv{r_i}{t} = \frac{1}{m_i} \, \Re{\left( \frac{\inner{\psi}{p_i\psi}}{\inner{\psi}{\psi}} \right)} = \frac{\hbar}{m_i} \, \Im{\left( \frac{\inner{\psi}{\grad_i{\psi}}}{\inner{\psi}{\psi}} \right)}.
+		\dv{r_i}{t} = \frac{1}{m_i} \, \Re{\left( \frac{\inner{\psi}{p_i\psi}}{\inner{\psi}{\psi}} \right)} = \frac{\hbar}{m_i} \, \Im{\left( \frac{\inner{\psi}{\grad_i{\psi}}}{\inner{\psi}{\psi}} \right)}.
 		\end{equation}
 		An immediate consequence of \eqref{eq:guidance} is that quantum trajectories do not cross each other: if they had, two particles would have shared the same point, making the wave function multi-valued at that point.
 	</p>
@@ -120,28 +120,31 @@
 		<h3>The double-slit experiment</h3>
 	</header>
 	<p>
-		One advantage of this theory is that it resolves the dilemma of wave-particle duality in the double-slit experiment. In this experiment, a source sends a stream of particles, e.g. electrons, towards a pair of narrow slits. After the passage through the slits, the particles reach a photographic plate, leaving a black spot. After a while, these spots start to form an interference pattern on the screen, as if the particles were (or behaved as) waves. Note that this happens even if we send one particle at a time.
+		One advantage of this theory is that it resolves the dilemma of wave-particle duality in the double-slit experiment. In this experiment, a source sends a stream of particles, e.g. electrons, towards a pair of narrow slits. After the passage
+		through the slits, the particles reach a photographic plate, leaving a black spot. After a while, these spots start to form an interference pattern on the screen, as if the particles were (or behaved as) waves. Note that this happens even if we
+		send one particle at a time.
 	</p>
 	<p>
-		Our model is as follows. Since the Schrödinger equation is linear, we assume that the incident wave function comes out of the slits as a superposition of two Gaussian wave packets, which then propagate forward. We can use other wave packets, e.g. Airy functions, which propagate freely without envelope dispersion <a id="Berry1979↓" href="#Berry1979↑">[1]</a>, but the end result does not change substantially. Hence, for the $j$-th slit, our problem reads as
+		Our model is as follows. Since the Schrödinger equation is linear, we assume that the incident wave function comes out of the slits as a superposition of two Gaussian wave packets, which then propagate forward. We can use other wave packets, e.g.
+		Airy functions, which propagate freely without envelope dispersion <a id="Berry1979↓" href="#Berry1979↑">[1]</a>, but the end result does not change substantially. Hence, for the $j$-th slit, our problem reads as
 		\begin{equation}
-			\begin{cases}
-				i\hbar \pdv{\psi_j}{t} = -\frac{\hbar^2}{2m} \left( \pdvn{\psi_j}{x}{2} + \pdvn{\psi_j}{y}{2} \right), & (x, t) \in \RR \times [0, \infty], \\
-				\psi_j(x, y, 0) = \exp{\left[ -\frac{(y-y_j)^2}{2\sigma^2} + ikx \right]}, & t = 0, \\
-				\psi_j(x, y, t) \to 0, & x, y \to \pm\infty.
-			\end{cases}
+		\begin{cases}
+		i\hbar \pdv{\psi_j}{t} = -\frac{\hbar^2}{2m} \left( \pdvn{\psi_j}{x}{2} + \pdvn{\psi_j}{y}{2} \right), & (x, t) \in \RR \times [0, \infty], \\
+		\psi_j(x, y, 0) = \exp{\left[ -\frac{(y-y_j)^2}{2\sigma^2} + ikx \right]}, & t = 0, \\
+		\psi_j(x, y, t) \to 0, & x, y \to \pm\infty.
+		\end{cases}
 		\end{equation}
 		Separation of variables and a standard application of the Fourier transform give that
 		\begin{equation}
-			\psi_j(x,y,t) = \frac{\sigma}{\sigma_t} \, \exp{\left[ -\frac{(y-y_j)^2}{2\sigma_t^2} + i \left(kx - \frac{\hbar k^2}{2m}t\right) \right]},
+		\psi_j(x,y,t) = \frac{\sigma}{\sigma_t} \, \exp{\left[ -\frac{(y-y_j)^2}{2\sigma_t^2} + i \left(kx - \frac{\hbar k^2}{2m}t\right) \right]},
 		\end{equation}
 		with
 		\begin{equation}
-			\sigma_t := \sqrt{\sigma^2 + i\frac{\hbar}{m}t} \,.
+		\sigma_t := \sqrt{\sigma^2 + i\frac{\hbar}{m}t} \,.
 		\end{equation}
 		Hence, we substitute $\psi = \psi_1 + \psi_2$ into the guiding equation to obtain $x = kt$ and
 		\begin{equation}
-			\dv{y}{t} = \Im{\left( \frac{1}{\psi} \pdv{\psi}{y} \right)} = \Im{\left[ \frac{(y_1 - y)\psi_1 + (y_2 - y)\psi_2}{\sigma_t^2 (\psi_1 + \psi_2)} \right]},
+		\dv{y}{t} = \Im{\left( \frac{1}{\psi} \pdv{\psi}{y} \right)} = \Im{\left[ \frac{(y_1 - y)\psi_1 + (y_2 - y)\psi_2}{\sigma_t^2 (\psi_1 + \psi_2)} \right]},
 		\end{equation}
 		which we solve using the classic 4-th order Runge-Kutta scheme from <a href="https://github.com/antonuccig/RungeKutta.jl"><code class="languagesuage-julia">RungeKutta.jl</code></a>:
 	</p>
@@ -150,12 +153,14 @@ problem = DoubleSlit2D(σ = 0.225)
 solver = RK4(h = 1e-3)
 solution = solve(problem, solver)</code></pre>
 	<p>
-		We plot our results in <a id="Figure1↓" href="#Figure1↑">Figure 1</a> using some pre-defined plot recipes. As it turns out, the slits cause the guiding wave to form an interference pattern, which in turn determines the possible trajectories of each particle.
+		We plot our results in <a id="Figure1↓" href="#Figure1↑">Figure 1</a> using some pre-defined plot recipes. As it turns out, the slits cause the guiding wave to form an interference pattern, which in turn determines the possible trajectories of
+		each particle.
 	</p>
 	<figure>
 		<img src="images/double-slit.svg" alt="double-slit experiment" width="700px">
-		<figcaption><a id="Figure1↑" href="#Figure1↓"><b>Figure 1.</b></a> Left: particle trajectories for the double-slit experiment. Right: (non-normalised) quantum equilibrium distribution at the photographic plate. Parameters: $\hbar = m = k = 1$ and $\sigma
-		= 0.225$.</figcaption>
+		<figcaption><a id="Figure1↑" href="#Figure1↓"><b>Figure 1.</b></a> Left: particle trajectories for the double-slit experiment. Right: (non-normalised) quantum equilibrium distribution at the photographic plate. Parameters: $\hbar = m = k = 1$ and
+			$\sigma
+			= 0.225$.</figcaption>
 	</figure>
 </section>
 
