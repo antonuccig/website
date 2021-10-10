@@ -4,14 +4,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="css/main.css" rel="stylesheet">
 <script src="js/fontawesome.js"></script>
-<!-- Maths -->
 <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 <script src="js/maths.js"></script>
-<!-- Code -->
-<link rel="stylesheet" href="css/prism.css">
 <script src="js/prism.js"></script>
-<title>Giancarlo A. Antonucci – The de Broglie–Bohm interpretation of quantum mechanics</title>
+<title>Giancarlo A. Antonucci – Bohmian Mechanics</title>
 
 <nav>
 	<div class="nav-menu">
@@ -72,7 +69,7 @@
 
 <section>
 	<header>
-		<h2>The de Broglie–Bohm interpretation of quantum mechanics</h2>
+		<h2>Bohmian Mechanics</h2>
 	</header>
 	<ul>
 		<li><a href="#1">Introduction</a></li>
@@ -86,11 +83,11 @@
 		<h3>Introduction</h3>
 	</header>
 	<p>
-		According to the Copenhagen interpretation of quantum mechanics, particles do not have locations until they are observed. Another interpretation, named after its creators Louis de Broglie <a id="deBroglie1927↓" href="#deBroglie1927↑">[4]</a> and
+		According to the Copenhagen interpretation of quantum mechanics, particles do not have locations until they are observed. Another interpretation, due to Louis de Broglie <a id="deBroglie1927↓" href="#deBroglie1927↑">[4]</a> and
 		David Bohm <a id="Bohm1952a↓" href="#Bohm1952a↑">[2, </a><a id="Bohm1952b↓" href="#Bohm1952b↑">3]</a>, provides an alternative view in which particles have precise positions at all times.
 	</p>
 	<p>
-		Let $q(t)$ denote the configuration of a physical system, i.e. particles, $Q$ be its configuration space and $\psi(q,t)$ be the wave function underlying such a system. According to the de Broglie–Bohm theory, both wave and particles actually
+		Let $q(t)$ denote the configuration of a physical system, i.e. particles, $Q$ be its configuration space and $\psi(q,t)$ be the wave function underlying such a system. According to this theory, both wave and particles actually
 		exist as separate entities. We characterise the time evolution of a physical system according to a set of two equations: the Schrödinger equation
 		\begin{equation} \label{eq:schrodinger}
 		i\hbar \pdv{\psi}{t} = H\psi,
@@ -146,21 +143,19 @@
 		\begin{equation}
 		\dv{y}{t} = \Im{\left( \frac{1}{\psi} \pdv{\psi}{y} \right)} = \Im{\left[ \frac{(y_1 - y)\psi_1 + (y_2 - y)\psi_2}{\sigma_t^2 (\psi_1 + \psi_2)} \right]},
 		\end{equation}
-		which we solve using the classic 4-th order Runge-Kutta scheme from <a href="https://github.com/antonuccig/RungeKutta.jl"><code class="languagesuage-julia">RungeKutta.jl</code></a>:
+		which we solve using the classic 4-th order Runge-Kutta scheme from <a href="https://github.com/antonuccig/RungeKutta.jl"><code class="languagesuage-julia">RungeKutta.jl</code></a> whilst setting $\hbar = m = k = 1$ and $\sigma = 0.225$:
 	</p>
-	<pre><code class="languagesuage-julia">using RungeKutta
+	<pre><code class="language-julia">using RungeKutta
 problem = DoubleSlit2D(σ = 0.225)
 solver = RK4(h = 1e-3)
 solution = solve(problem, solver)</code></pre>
 	<p>
-		We plot our results in <a id="Figure1↓" href="#Figure1↑">Figure 1</a> using some pre-defined plot recipes. As it turns out, the slits cause the guiding wave to form an interference pattern, which in turn determines the possible trajectories of
+		We plot our result in <a id="Figure1↓" href="#Figure1↑">Figure 1</a>. As it turns out, the slits cause the guiding wave to form an interference pattern, which in turn determines the possible trajectories of
 		each particle.
 	</p>
 	<figure>
 		<img src="images/double-slit.svg" alt="double-slit experiment" width="700px">
-		<figcaption><a id="Figure1↑" href="#Figure1↓"><b>Figure 1.</b></a> Left: particle trajectories for the double-slit experiment. Right: (non-normalised) quantum equilibrium distribution at the photographic plate. Parameters: $\hbar = m = k = 1$ and
-			$\sigma
-			= 0.225$.</figcaption>
+		<figcaption><a id="Figure1↑" href="#Figure1↓"><b>Figure 1.</b></a> Left: particle trajectories for the double-slit experiment. Right: (non-normalised) quantum equilibrium distribution at the photographic plate.</figcaption>
 	</figure>
 </section>
 
