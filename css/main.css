@@ -1,12 +1,11 @@
 @import 'https://cdn.jsdelivr.net/gh/giancarloantonucci/carocci-web/font.css';
 @import 'https://cdn.jsdelivr.net/gh/giancarloantonucci/latin-modern/font.css';
 @import 'https://cdn.jsdelivr.net/gh/giancarloantonucci/sophonetica/font.css';
-@import 'nav.css';
-@import 'home.css';
-@import 'prism.css';
 @import 'balloon.css';
 @import 'canipa.css';
-
+@import 'home.css';
+@import 'nav.css';
+@import 'prism.css';
 
 html {
   font-family: 'Latin Modern Sans 10', sans-serif;
@@ -15,10 +14,8 @@ html {
 body {
   padding: 0;
   margin: 0;
-  /* margin-bottom: 2em; */
 }
 
-/* ---------------------------------- MAIN ---------------------------------- */
 pre {
   border: solid 1px #a0a0a04d;
 }
@@ -32,39 +29,37 @@ a:hover {
   color: #1eaedb;
 }
 
-code {
-  font-family: 'Julia-Mono Regular', monospace;
-  font-size: 85%;
-}
+/******************************************************************************************/
+/*                                        SECTION                                         */
+/******************************************************************************************/
 
-/* -------------------------------- SECTION --------------------------------- */
 section {
   display: block;
-  padding: 0em 4em 0em;
+  padding: 0em 4em;
   position: relative;
 }
 
-section header {
+section h1, h2 {
   border-bottom: solid 1px #a0a0a04d;
-  margin: 0 -2em 2em -2em;
-  padding: 0 2em 4em;
+  margin-bottom: 1em;
+  padding-bottom: 0.5em;
 }
 
-section header h2, header h3 {
-  float: left;
-}
-
-/* section > header > h3.numbered:before {
+/* section header h2.numbered:before {
   counter-increment: css-counter2 1;
   content: counter(css-counter2) '. ';
 } */
+
 section header img {
   margin: -0.5em 0 0 0;
   padding: 0.5em;
   float: right;
   text-align: right;
-  /* border-left: solid 1px #a0a0a04d; */
   height: 3.5em;
+}
+
+section figure {
+  display: block;
 }
 
 section figure img {
@@ -90,39 +85,14 @@ section table td.left {
   text-align: right;
 }
 
-section ol, section ul {
-  margin-top: 0.5em;
-}
-
-/* ---------------------------- CURRICULUM VITAE ---------------------------- */
-section.cv {
-  padding: 1em 2em;
-}
-
-section.cv ol,
-section.cv ul {
-  margin-top: 0.5em;
-  margin-left: -1em;
-}
-
-section.cv table td {
-  padding-bottom: 0.25em;
-}
-
 section.cv table td.left {
-  width: 6em;
-  padding-right: 1em;
-  text-align: right;
-  vertical-align: top;
+  width: 7em;
 }
 
-/* --------------------------------- CANIPA --------------------------------- */
-div.canipa {
-  display: inline;
-  font-family: Sophonetica, serif;
-}
+/******************************************************************************************/
+/*                                      MATHEMATICS                                       */
+/******************************************************************************************/
 
-/* ------------------------------ MATHEMATICS ------------------------------- */
 /*
 div.environment {
   counter-increment: css-counter 1;

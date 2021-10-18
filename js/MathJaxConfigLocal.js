@@ -6,9 +6,9 @@ MathJax.Hub.Config({
 		processEscapes: true,
 	},
 	"HTML-CSS" : {
-    // availableFonts : ["Latin-Modern"],
-    // preferredFont : "Latin-Modern",
-    // webFont : "Latin-Modern",
+    availableFonts : ["Latin-Modern"],
+    preferredFont : "Latin-Modern",
+    webFont : "Latin-Modern",
     imageFont : null,
     mtextFontInherit: true,
   },
@@ -40,4 +40,4 @@ MathJax.Hub.Config({
 	},
 });
 
-MathJax.Ajax.loadComplete("https://people.maths.ox.ac.uk/antonucci/assets/js/MathJaxConfigLocal.js");
+MathJax.Ajax.loadComplete("https://github.com/giancarloantonucci/website/blob/main/js/MathJaxConfigLocal.js");

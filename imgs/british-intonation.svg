@@ -565,42 +565,25 @@
   </svg>
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="585" height="256" style="width:585px;height:256px;background:0 0">
     <defs>
-      <style type="text/css">
-        @import "https://cdn.rawgit.com/dreampulse/computer-modern-web-font/master/fonts.css";
-        @import "https://cdn.jsdelivr.net/gh/antonuccig/Sophonetica/font.css";
+      <style>
+        @import &apos;https://cdn.jsdelivr.net/gh/giancarloantonucci/latin-modern/font.css&apos;;@import &apos;https://cdn.jsdelivr.net/gh/giancarloantonucci/sophonetica/font.css&apos;;
       </style>
     </defs>
-    <text
-      x="102"
-      y="20"
-      style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Computer Modern Sans',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none"
-      text-anchor="end">normal</text>
+    <text x="102" y="20" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Latin Modern Sans 10',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none" text-anchor="end">normal</text>
     <text x="102" y="41" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none" text-anchor="end">/ / [ ] ⟨ ⟩</text>
-    <text
-      x="102"
-      y="80"
-      style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Computer Modern Sans',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none"
-      text-anchor="end">interrogative</text>
+    <text x="102" y="80" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Latin Modern Sans 10',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none" text-anchor="end">interrogative</text>
     <text x="102" y="101" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none" text-anchor="end">/¿/ [¿] ⟨¿⟩</text>
-    <text
-      x="102"
-      y="140"
-      style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Computer Modern Sans',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none"
-      text-anchor="end">imperative</text>
+    <text x="102" y="140" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Latin Modern Sans 10',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none" text-anchor="end">imperative</text>
     <text x="102" y="161" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none" text-anchor="end">/¡/ [¡] ⟨¡⟩</text>
-    <text
-      x="102"
-      y="200"
-      style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Computer Modern Sans',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none"
-      text-anchor="end">emphatic</text>
+    <text x="102" y="200" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Latin Modern Sans 10',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none" text-anchor="end">emphatic</text>
     <text x="102" y="221" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none" text-anchor="end">/⩑/ [⩑] ⟨⩑⟩</text>
-    <text x="483" y="20" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Computer Modern Sans',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">conclusive</text>
+    <text x="483" y="20" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Latin Modern Sans 10',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">conclusive</text>
     <text x="483" y="41" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">/./ [·&apos;..] ⟨`⟩</text>
-    <text x="483" y="80" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Computer Modern Sans',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">interrogative</text>
+    <text x="483" y="80" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Latin Modern Sans 10',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">interrogative</text>
     <text x="483" y="101" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">/?/ [·&apos;·˙] ⟨´⟩</text>
-    <text x="483" y="140" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Computer Modern Sans',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">suspensive</text>
+    <text x="483" y="140" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Latin Modern Sans 10',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">suspensive</text>
     <text x="483" y="161" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">/;/ [·&apos;.·] ⟨,⟩</text>
-    <text x="483" y="200" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Computer Modern Sans',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">continuative</text>
+    <text x="483" y="200" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:'Latin Modern Sans 10',sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">continuative</text>
     <text x="483" y="221" style="white-space:pre;stroke:none;fill:#000;fill-opacity:1;font-size:15px;font-family:Sophonetica,sans-serif;font-weight:400;font-style:normal;dominant-baseline:text-before-edge;text-decoration:none">/,/ [·&apos;·] ⟨&apos;⟩</text>
   </svg>
 </svg>

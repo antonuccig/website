@@ -45,22 +45,22 @@
 		<ul>
 			<li class="active">
 				<a href="bohm.html">
-					<img src="images/flag-en.svg">
+					<img src="imgs/flag-en.svg">
 				</a>
 			</li>
 			<li>
 				<a href="bohm-it.html">
-					<img src="images/flag-it.svg">
+					<img src="imgs/flag-it.svg">
 				</a>
 			</li>
 			<li>
 				<a href="bohm-scn.html">
-					<img src="images/flag-scn.svg">
+					<img src="imgs/flag-scn.svg">
 				</a>
 			</li>
 			<li>
 				<a href="bohm-pms.html">
-					<img src="images/flag-pms.svg">
+					<img src="imgs/flag-pms.svg">
 				</a>
 			</li>
 		</ul>
@@ -141,9 +141,9 @@
 		\end{equation}
 		Hence, we substitute $\psi = \psi_1 + \psi_2$ into the guiding equation to obtain $x = kt$ and
 		\begin{equation}
-		\dv{y}{t} = \Im{\left( \frac{1}{\psi} \pdv{\psi}{y} \right)} = \Im{\left[ \frac{(y_1 - y)\psi_1 + (y_2 - y)\psi_2}{\sigma_t^2 (\psi_1 + \psi_2)} \right]},
+		\dv{y}{t} = \Im{\left( \frac{1}{\psi} \pdv{\psi}{y} \right)} = \Im{\left[ \frac{(y_1 - y) \, \psi_1 + (y_2 - y) \, \psi_2}{\sigma_t^2 \, (\psi_1 + \psi_2)} \right]},
 		\end{equation}
-		which we solve using the classic 4-th order Runge-Kutta scheme from <a href="https://github.com/antonuccig/RungeKutta.jl"><code class="languagesuage-julia">RungeKutta.jl</code></a> whilst setting $\hbar = m = k = 1$ and $\sigma = 0.225$:
+		which we solve using the classic 4-th order Runge-Kutta scheme from <a href="https://github.com/antonuccig/RungeKutta.jl"><code class="language-julia">RungeKutta.jl</code></a> whilst setting $\hbar = m = k = 1$ and $\sigma = 0.225$:
 	</p>
 	<pre><code class="language-julia">using RungeKutta
 problem = DoubleSlit2D(σ = 0.225)
@@ -154,7 +154,7 @@ solution = solve(problem, solver)</code></pre>
 		each particle.
 	</p>
 	<figure>
-		<img src="images/double-slit.svg" alt="double-slit experiment" width="700px">
+		<img src="imgs/double-slit.svg" alt="double-slit experiment" width="700px">
 		<figcaption><a id="Figure1↑" href="#Figure1↓"><b>Figure 1.</b></a> Left: particle trajectories for the double-slit experiment. Right: (non-normalised) quantum equilibrium distribution at the photographic plate.</figcaption>
 	</figure>
 </section>
