@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="https://indestructibletype.com/fonts/Bodoni/Bodoni.css" type="text/css" charset="utf-8" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <title>G. A. Antonucci – {{title}}</title>
+</head>
+<body>
+  <div class="navbar">
+    <a href="index.html">{{homeLabel}}</a>
+    <a href="research.html">{{researchLabel}}</a>
+    <a href="notebook.html">{{notebookLabel}}</a>
+    <div class="dropdown">
+      <button class="dropdown-button" onclick="toggleDropdown()">
+        &#127757 <i class="fa fa-caret-down"></i>
+      </button>
+      <div id="language-selector" class="dropdown-content">
+        <a {{existsEnPath}} href="{{enPath}}">
+          <img src="/assets/images/english-flag.svg" alt="English Flag" class="language-flag">
+        </a>
+        <a {{existsItPath}} href="{{itPath}}">
+          <img src="/assets/images/italian-flag.svg" alt="Italian Flag" class="language-flag">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="content-wrapper">
+    <header class="content">
+      <h1>{{title}}</h1>
+    </header>
+    <main class="content">
+      {{renderedContent}}
+    </main>
+  </div>
+  <footer>
+    &copy; 2023 Giancarlo Antonino Antonucci
+  </footer>
+  <script src="/assets/js/dropdown.js"></script>
+</body>
+</html>
